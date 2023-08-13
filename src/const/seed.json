@@ -1,0 +1,3132 @@
+[
+  {
+    "event": [
+      {
+        "id": "df81f732-9aac-4ce8-92bb-255ea8ed0d69",
+        "name": "Conference A",
+        "created_at": "2023-08-13T04:24:29.025Z",
+        "updated_at": "2023-08-13T13:44:29.250Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "097cdf3b-a5c4-449a-b669-a9f6ffeaf7fe",
+        "name": "Workshop B",
+        "created_at": "2023-08-13T12:28:18.725Z",
+        "updated_at": "2023-08-13T04:30:21.205Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "bd1d7da7-cfc6-45d4-b226-8cd820595288",
+        "name": "Seminar C",
+        "created_at": "2023-08-12T23:24:47.028Z",
+        "updated_at": "2023-08-13T07:56:08.420Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "8d843a35-110b-4f03-9798-6d1bd9576687",
+        "name": "Exhibition D",
+        "created_at": "2023-08-13T05:51:27.304Z",
+        "updated_at": "2023-08-13T04:58:03.235Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "7ed21aad-8e19-4421-8c73-33d16a446255",
+        "name": "Webinar E",
+        "created_at": "2023-08-13T11:21:40.433Z",
+        "updated_at": "2023-08-13T09:48:45.329Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "venue": [
+      {
+        "id": "b35f09b0-77ec-452f-9bb6-206932bb9223",
+        "name": "Venue X",
+        "created_at": "2023-08-13T01:41:01.292Z",
+        "updated_at": "2023-08-13T11:12:35.447Z",
+        "event_id": "7ed21aad-8e19-4421-8c73-33d16a446255"
+      },
+      {
+        "id": "2e11a0ff-8323-41c0-8c4a-465da4126670",
+        "name": "Venue Y",
+        "created_at": "2023-08-13T04:02:42.030Z",
+        "updated_at": "2023-08-13T18:05:16.700Z",
+        "event_id": "8d843a35-110b-4f03-9798-6d1bd9576687"
+      },
+      {
+        "id": "58d2fc56-a5c7-47cc-95e0-92a2b7a508a9",
+        "name": "Venue Z",
+        "created_at": "2023-08-13T21:19:41.493Z",
+        "updated_at": "2023-08-13T14:35:16.512Z",
+        "event_id": "097cdf3b-a5c4-449a-b669-a9f6ffeaf7fe"
+      },
+      {
+        "id": "641749e4-05a3-4157-8624-533b7055629d",
+        "name": "Venue P",
+        "created_at": "2023-08-13T02:10:09.333Z",
+        "updated_at": "2023-08-13T10:52:41.895Z",
+        "event_id": "7ed21aad-8e19-4421-8c73-33d16a446255"
+      },
+      {
+        "id": "84bcbff2-a45e-41af-bbf8-290af1182456",
+        "name": "Venue Q",
+        "created_at": "2023-08-13T21:17:04.949Z",
+        "updated_at": "2023-08-13T20:11:54.072Z",
+        "event_id": "097cdf3b-a5c4-449a-b669-a9f6ffeaf7fe"
+      }
+    ],
+    "session": [
+      {
+        "id": "b3e7c52a-65c0-4985-bd0c-b59aff3fa2f6",
+        "name": "Session 1",
+        "created_at": "2023-08-13T12:07:51.938Z",
+        "updated_at": "2023-08-13T06:01:40.946Z",
+        "event_id": "8d843a35-110b-4f03-9798-6d1bd9576687"
+      },
+      {
+        "id": "fe258076-b17b-4229-b2fa-bcb6c9f5b51e",
+        "name": "Session 2",
+        "created_at": "2023-08-13T21:41:00.959Z",
+        "updated_at": "2023-08-12T23:15:25.829Z",
+        "event_id": "bd1d7da7-cfc6-45d4-b226-8cd820595288"
+      },
+      {
+        "id": "6ade74f8-2293-4bdd-b83e-33e78ce81191",
+        "name": "Session 3",
+        "created_at": "2023-08-13T19:20:18.999Z",
+        "updated_at": "2023-08-13T03:23:05.057Z",
+        "event_id": "bd1d7da7-cfc6-45d4-b226-8cd820595288"
+      },
+      {
+        "id": "dbccd1e4-0f84-41ed-b6da-d7c9c88a9fd2",
+        "name": "Session 4",
+        "created_at": "2023-08-13T15:12:51.185Z",
+        "updated_at": "2023-08-13T07:26:29.775Z",
+        "event_id": "7ed21aad-8e19-4421-8c73-33d16a446255"
+      },
+      {
+        "id": "8da03c5b-21bc-4595-ab59-3d119885d920",
+        "name": "Session 5",
+        "created_at": "2023-08-13T02:31:49.566Z",
+        "updated_at": "2023-08-13T11:27:54.184Z",
+        "event_id": "7ed21aad-8e19-4421-8c73-33d16a446255"
+      }
+    ],
+    "registration": [
+      {
+        "id": "1345f322-ae31-499a-b238-fd9d5b501921",
+        "attendee_name": "John Doe",
+        "created_at": "2023-08-13T15:36:25.221Z",
+        "updated_at": "2023-08-13T13:54:52.511Z",
+        "event_id": "7ed21aad-8e19-4421-8c73-33d16a446255"
+      },
+      {
+        "id": "6563041a-7b9a-43ab-a9b5-7e61e796f2b9",
+        "attendee_name": "Jane Smith",
+        "created_at": "2023-08-13T11:40:50.445Z",
+        "updated_at": "2023-08-13T14:12:22.413Z",
+        "event_id": "8d843a35-110b-4f03-9798-6d1bd9576687"
+      },
+      {
+        "id": "49a43fe0-37ef-4c24-b827-a743b6d7440e",
+        "attendee_name": "Michael Brown",
+        "created_at": "2023-08-13T12:08:47.281Z",
+        "updated_at": "2023-08-13T05:22:07.535Z",
+        "event_id": "8d843a35-110b-4f03-9798-6d1bd9576687"
+      },
+      {
+        "id": "e5854b3b-cf0d-4496-a4e4-cd43b1a8d3da",
+        "attendee_name": "Sarah Jones",
+        "created_at": "2023-08-13T11:11:36.082Z",
+        "updated_at": "2023-08-13T15:12:33.632Z",
+        "event_id": "bd1d7da7-cfc6-45d4-b226-8cd820595288"
+      },
+      {
+        "id": "15be5cfc-f511-456f-bc0d-f3a4b7ab4002",
+        "attendee_name": "David Wilson",
+        "created_at": "2023-08-13T22:12:34.575Z",
+        "updated_at": "2023-08-13T04:31:27.613Z",
+        "event_id": "bd1d7da7-cfc6-45d4-b226-8cd820595288"
+      }
+    ],
+    "promotion": [
+      {
+        "id": "69ff8e31-440b-40be-9f91-70e48f086293",
+        "description": "Get 20% off on all products.",
+        "created_at": "2023-08-13T00:31:20.419Z",
+        "updated_at": "2023-08-13T07:13:21.780Z",
+        "event_id": "7ed21aad-8e19-4421-8c73-33d16a446255"
+      },
+      {
+        "id": "2a45c6d5-095b-475e-a808-118296382628",
+        "description": "Limited time offer: Buy one, get one free.",
+        "created_at": "2023-08-13T21:59:24.228Z",
+        "updated_at": "2023-08-13T10:38:03.120Z",
+        "event_id": "df81f732-9aac-4ce8-92bb-255ea8ed0d69"
+      },
+      {
+        "id": "211bf5fd-5818-49a2-ae38-af0f37eccf19",
+        "description": "Join now and receive a free gift.",
+        "created_at": "2023-08-13T14:32:57.907Z",
+        "updated_at": "2023-08-13T13:57:09.237Z",
+        "event_id": "7ed21aad-8e19-4421-8c73-33d16a446255"
+      },
+      {
+        "id": "90ff316d-e3d9-4d9a-a40a-f0e9c3526331",
+        "description": "Exclusive discount for new customers.",
+        "created_at": "2023-08-13T13:54:01.686Z",
+        "updated_at": "2023-08-13T12:20:02.887Z",
+        "event_id": "bd1d7da7-cfc6-45d4-b226-8cd820595288"
+      },
+      {
+        "id": "85dbdf37-ddc4-4661-ae99-b88a07ab93fe",
+        "description": "Refer a friend and get rewarded.",
+        "created_at": "2023-08-13T19:56:51.675Z",
+        "updated_at": "2023-08-13T11:44:35.041Z",
+        "event_id": "bd1d7da7-cfc6-45d4-b226-8cd820595288"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "e5407598-1145-48bd-a1d6-29c2d761821b",
+        "analysis": "Analysis A",
+        "created_at": "2023-08-13T11:33:06.535Z",
+        "updated_at": "2023-08-13T05:58:21.254Z",
+        "event_id": "bd1d7da7-cfc6-45d4-b226-8cd820595288"
+      },
+      {
+        "id": "aa97e11c-bb3f-4ed5-af55-c1d700c9ffe8",
+        "analysis": "Analysis B",
+        "created_at": "2023-08-13T08:26:23.246Z",
+        "updated_at": "2023-08-13T00:54:29.016Z",
+        "event_id": "7ed21aad-8e19-4421-8c73-33d16a446255"
+      },
+      {
+        "id": "6bdf1e30-cb1e-4a54-88e9-90ed10c9ca7d",
+        "analysis": "Analysis C",
+        "created_at": "2023-08-13T09:10:06.495Z",
+        "updated_at": "2023-08-13T12:43:21.825Z",
+        "event_id": "097cdf3b-a5c4-449a-b669-a9f6ffeaf7fe"
+      },
+      {
+        "id": "2c8cfaa4-885c-4b49-80af-2ca2bad9565d",
+        "analysis": "Analysis D",
+        "created_at": "2023-08-13T10:01:39.905Z",
+        "updated_at": "2023-08-13T02:06:23.416Z",
+        "event_id": "097cdf3b-a5c4-449a-b669-a9f6ffeaf7fe"
+      },
+      {
+        "id": "5168e90a-443c-4cb4-874d-a43a3ba20654",
+        "analysis": "Analysis E",
+        "created_at": "2023-08-13T18:57:12.545Z",
+        "updated_at": "2023-08-13T22:08:05.459Z",
+        "event_id": "7ed21aad-8e19-4421-8c73-33d16a446255"
+      }
+    ],
+    "check_in": [
+      {
+        "id": "71d8d46b-279e-4312-879b-29f578a14946",
+        "checked_in": true,
+        "created_at": "2023-08-13T09:51:23.234Z",
+        "updated_at": "2023-08-13T14:33:30.543Z",
+        "registration_id": "e5854b3b-cf0d-4496-a4e4-cd43b1a8d3da"
+      },
+      {
+        "id": "cd51b7e2-e2a1-47dd-81a6-04baa97e2b21",
+        "checked_in": false,
+        "created_at": "2023-08-13T12:18:13.439Z",
+        "updated_at": "2023-08-13T00:36:53.618Z",
+        "registration_id": "15be5cfc-f511-456f-bc0d-f3a4b7ab4002"
+      },
+      {
+        "id": "73b5fa3b-3e6a-4395-848e-edd2bb52b589",
+        "checked_in": true,
+        "created_at": "2023-08-13T19:34:37.551Z",
+        "updated_at": "2023-08-13T20:44:11.958Z",
+        "registration_id": "15be5cfc-f511-456f-bc0d-f3a4b7ab4002"
+      },
+      {
+        "id": "067bef7b-5cd9-4125-b5d7-2524b3e8dd69",
+        "checked_in": false,
+        "created_at": "2023-08-13T21:22:54.626Z",
+        "updated_at": "2023-08-13T13:36:15.923Z",
+        "registration_id": "15be5cfc-f511-456f-bc0d-f3a4b7ab4002"
+      },
+      {
+        "id": "89df8fd4-f8c5-40c1-b15f-dd7cad6db121",
+        "checked_in": true,
+        "created_at": "2023-08-13T20:29:38.058Z",
+        "updated_at": "2023-08-13T03:42:26.122Z",
+        "registration_id": "e5854b3b-cf0d-4496-a4e4-cd43b1a8d3da"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0c434c61-b055-4c26-819e-11a1c07efe53",
+        "email": "Brad.Hansen@gmail.com",
+        "firstName": "Dominique",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64119811",
+        "tenantId": null
+      },
+      {
+        "reference": "caf0b479-a517-464f-bf8a-20550e168145",
+        "email": "Lloyd84@hotmail.com",
+        "firstName": "Katrina",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65627263",
+        "tenantId": null
+      },
+      {
+        "reference": "0acf9ae2-0a82-4841-868f-356779df9545",
+        "email": "Gladyce83@gmail.com",
+        "firstName": "Torrance",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/489.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a7539e9e-6081-4939-9782-cc9fec2e28c6",
+        "email": "Eva48@hotmail.com",
+        "firstName": "Ronny",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79103061",
+        "tenantId": null
+      },
+      {
+        "reference": "fc219693-0938-411c-ae10-a49ed3928c3a",
+        "email": "Agnes48@hotmail.com",
+        "firstName": "Mario",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97033395",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "event": [
+      {
+        "id": "84d44f4d-712e-448d-9119-92cfd780611f",
+        "name": "Conference A",
+        "created_at": "2023-08-13T15:34:02.398Z",
+        "updated_at": "2023-08-13T05:44:57.916Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "df40d451-5663-4a91-8638-7e0fc9431f05",
+        "name": "Workshop B",
+        "created_at": "2023-08-13T07:26:22.724Z",
+        "updated_at": "2023-08-13T01:11:21.154Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "1b86eab8-5854-4eaa-85de-3dea1cdad664",
+        "name": "Seminar C",
+        "created_at": "2023-08-13T14:25:04.554Z",
+        "updated_at": "2023-08-13T01:01:44.130Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "27777198-c588-413a-8a4f-f7a6754c6eba",
+        "name": "Exhibition D",
+        "created_at": "2023-08-13T01:40:14.519Z",
+        "updated_at": "2023-08-13T07:40:59.947Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "ded8b721-c593-4b25-b9ed-15e5833f76e1",
+        "name": "Webinar E",
+        "created_at": "2023-08-13T07:16:04.475Z",
+        "updated_at": "2023-08-13T07:44:25.121Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "venue": [
+      {
+        "id": "1e7d56eb-b376-4fb6-bef4-9f776258a222",
+        "name": "Venue A",
+        "created_at": "2023-08-13T17:04:55.524Z",
+        "updated_at": "2023-08-13T08:19:16.773Z",
+        "event_id": "27777198-c588-413a-8a4f-f7a6754c6eba"
+      },
+      {
+        "id": "84b2fccf-7560-4b49-962b-768b4875205e",
+        "name": "Venue B",
+        "created_at": "2023-08-13T07:05:33.000Z",
+        "updated_at": "2023-08-13T04:44:31.019Z",
+        "event_id": "df40d451-5663-4a91-8638-7e0fc9431f05"
+      },
+      {
+        "id": "5c56f8f0-e47f-4029-8b49-3f4f21949d6b",
+        "name": "Venue C",
+        "created_at": "2023-08-13T10:16:57.575Z",
+        "updated_at": "2023-08-13T16:45:30.297Z",
+        "event_id": "84d44f4d-712e-448d-9119-92cfd780611f"
+      },
+      {
+        "id": "aae05233-6ac0-44ca-a08e-9ff694496d83",
+        "name": "Venue D",
+        "created_at": "2023-08-13T17:35:32.721Z",
+        "updated_at": "2023-08-13T04:30:24.906Z",
+        "event_id": "27777198-c588-413a-8a4f-f7a6754c6eba"
+      },
+      {
+        "id": "bb62406e-bb7b-42a9-81a4-6fbd204762ee",
+        "name": "Venue E",
+        "created_at": "2023-08-13T04:57:28.125Z",
+        "updated_at": "2023-08-13T07:14:05.401Z",
+        "event_id": "1b86eab8-5854-4eaa-85de-3dea1cdad664"
+      }
+    ],
+    "session": [
+      {
+        "id": "eae7588d-d287-420d-8c71-a1678968083b",
+        "name": "Session A",
+        "created_at": "2023-08-12T23:14:45.477Z",
+        "updated_at": "2023-08-13T02:34:42.308Z",
+        "event_id": "27777198-c588-413a-8a4f-f7a6754c6eba"
+      },
+      {
+        "id": "4e2b4ef6-78ad-421f-9c95-f850822b7b2a",
+        "name": "Session B",
+        "created_at": "2023-08-13T08:39:09.927Z",
+        "updated_at": "2023-08-13T18:25:35.314Z",
+        "event_id": "27777198-c588-413a-8a4f-f7a6754c6eba"
+      },
+      {
+        "id": "910fdf34-90c9-4938-a299-fd7205e06fbc",
+        "name": "Session C",
+        "created_at": "2023-08-13T12:06:04.550Z",
+        "updated_at": "2023-08-13T18:10:52.342Z",
+        "event_id": "84d44f4d-712e-448d-9119-92cfd780611f"
+      },
+      {
+        "id": "71479820-df33-407f-8b83-1d13559fc590",
+        "name": "Session D",
+        "created_at": "2023-08-13T05:36:56.229Z",
+        "updated_at": "2023-08-13T01:41:56.623Z",
+        "event_id": "ded8b721-c593-4b25-b9ed-15e5833f76e1"
+      },
+      {
+        "id": "a027fc1b-beeb-4ac9-96f6-432a9b4d1996",
+        "name": "Session E",
+        "created_at": "2023-08-13T04:03:14.900Z",
+        "updated_at": "2023-08-13T18:49:09.503Z",
+        "event_id": "df40d451-5663-4a91-8638-7e0fc9431f05"
+      }
+    ],
+    "registration": [
+      {
+        "id": "98803db9-77a7-42b8-99d6-b8d0fdff7c26",
+        "attendee_name": "John Doe",
+        "created_at": "2023-08-13T15:04:04.303Z",
+        "updated_at": "2023-08-13T08:03:02.411Z",
+        "event_id": "84d44f4d-712e-448d-9119-92cfd780611f"
+      },
+      {
+        "id": "a8c02d37-6d98-4b91-9f20-94a691c1c2f3",
+        "attendee_name": "Jane Smith",
+        "created_at": "2023-08-13T13:46:10.767Z",
+        "updated_at": "2023-08-13T07:41:16.408Z",
+        "event_id": "ded8b721-c593-4b25-b9ed-15e5833f76e1"
+      },
+      {
+        "id": "38b675f3-97be-45f1-afc7-531dcc09d6bf",
+        "attendee_name": "Michael Brown",
+        "created_at": "2023-08-13T10:23:41.022Z",
+        "updated_at": "2023-08-13T12:44:52.388Z",
+        "event_id": "1b86eab8-5854-4eaa-85de-3dea1cdad664"
+      },
+      {
+        "id": "b22ea69f-3e54-4b0d-83b8-6435a72948de",
+        "attendee_name": "Sarah Jones",
+        "created_at": "2023-08-13T14:43:20.498Z",
+        "updated_at": "2023-08-13T05:16:21.268Z",
+        "event_id": "df40d451-5663-4a91-8638-7e0fc9431f05"
+      },
+      {
+        "id": "084e8508-c996-4522-97a2-7eae87399469",
+        "attendee_name": "David Wilson",
+        "created_at": "2023-08-13T01:39:50.459Z",
+        "updated_at": "2023-08-13T01:19:06.171Z",
+        "event_id": "1b86eab8-5854-4eaa-85de-3dea1cdad664"
+      }
+    ],
+    "promotion": [
+      {
+        "id": "a3188f2d-a595-46ca-94a2-5f6f34e24687",
+        "description": "Get 20% off on all products.",
+        "created_at": "2023-08-13T19:48:49.206Z",
+        "updated_at": "2023-08-13T19:17:43.173Z",
+        "event_id": "df40d451-5663-4a91-8638-7e0fc9431f05"
+      },
+      {
+        "id": "50a1e156-2423-4400-91ac-8f0a3413a3ae",
+        "description": "Limited time offer: Buy one get one free.",
+        "created_at": "2023-08-13T07:43:21.483Z",
+        "updated_at": "2023-08-13T14:35:28.619Z",
+        "event_id": "84d44f4d-712e-448d-9119-92cfd780611f"
+      },
+      {
+        "id": "e345d1c9-ecd2-4be3-8bc2-41351575db25",
+        "description": "Join now and receive a free gift.",
+        "created_at": "2023-08-13T17:06:55.658Z",
+        "updated_at": "2023-08-13T08:14:17.603Z",
+        "event_id": "1b86eab8-5854-4eaa-85de-3dea1cdad664"
+      },
+      {
+        "id": "f997ae92-8278-4b5c-b780-748ac78ca34a",
+        "description": "Exclusive discount for new customers.",
+        "created_at": "2023-08-13T22:03:43.122Z",
+        "updated_at": "2023-08-13T15:15:54.855Z",
+        "event_id": "84d44f4d-712e-448d-9119-92cfd780611f"
+      },
+      {
+        "id": "63ba4a10-3e74-47f4-8b51-7c0b8ef8f64c",
+        "description": "Refer a friend and get rewarded.",
+        "created_at": "2023-08-13T08:13:14.536Z",
+        "updated_at": "2023-08-13T00:19:15.850Z",
+        "event_id": "df40d451-5663-4a91-8638-7e0fc9431f05"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "82fa50a9-379f-4f2c-87f3-a1b6467f6fb4",
+        "analysis": "Analysis A",
+        "created_at": "2023-08-13T13:41:17.378Z",
+        "updated_at": "2023-08-13T12:41:12.917Z",
+        "event_id": "1b86eab8-5854-4eaa-85de-3dea1cdad664"
+      },
+      {
+        "id": "f8bbd664-f584-4af2-8894-7acd1b1f13c3",
+        "analysis": "Analysis B",
+        "created_at": "2023-08-13T16:07:20.852Z",
+        "updated_at": "2023-08-13T11:37:35.989Z",
+        "event_id": "df40d451-5663-4a91-8638-7e0fc9431f05"
+      },
+      {
+        "id": "a41b0f90-f850-4a4b-959f-5d17c7421e60",
+        "analysis": "Analysis C",
+        "created_at": "2023-08-13T01:39:40.744Z",
+        "updated_at": "2023-08-13T20:14:01.600Z",
+        "event_id": "ded8b721-c593-4b25-b9ed-15e5833f76e1"
+      },
+      {
+        "id": "a01b08aa-8093-4e0f-bb3d-8beb28b1d3b4",
+        "analysis": "Analysis D",
+        "created_at": "2023-08-13T05:58:10.157Z",
+        "updated_at": "2023-08-13T11:30:38.771Z",
+        "event_id": "1b86eab8-5854-4eaa-85de-3dea1cdad664"
+      },
+      {
+        "id": "fb15ca8f-f99c-4515-82b2-e9b8948a1a6e",
+        "analysis": "Analysis E",
+        "created_at": "2023-08-13T13:12:44.849Z",
+        "updated_at": "2023-08-13T21:22:47.549Z",
+        "event_id": "ded8b721-c593-4b25-b9ed-15e5833f76e1"
+      }
+    ],
+    "check_in": [
+      {
+        "id": "d2513bcb-b590-4e54-8301-63c438c1b8e0",
+        "checked_in": true,
+        "created_at": "2023-08-13T04:39:16.915Z",
+        "updated_at": "2023-08-13T09:54:34.427Z",
+        "registration_id": "a8c02d37-6d98-4b91-9f20-94a691c1c2f3"
+      },
+      {
+        "id": "dfb9425d-764d-47ae-a53b-083eddc37eab",
+        "checked_in": true,
+        "created_at": "2023-08-13T09:25:07.451Z",
+        "updated_at": "2023-08-13T07:47:21.031Z",
+        "registration_id": "98803db9-77a7-42b8-99d6-b8d0fdff7c26"
+      },
+      {
+        "id": "49ab5455-025a-4eeb-82fe-70d31ae5d2d8",
+        "checked_in": true,
+        "created_at": "2023-08-13T17:24:27.293Z",
+        "updated_at": "2023-08-13T15:23:36.368Z",
+        "registration_id": "b22ea69f-3e54-4b0d-83b8-6435a72948de"
+      },
+      {
+        "id": "c21a7128-53f7-4e33-b411-5c8bff9452be",
+        "checked_in": false,
+        "created_at": "2023-08-13T08:33:36.434Z",
+        "updated_at": "2023-08-13T04:33:48.979Z",
+        "registration_id": "b22ea69f-3e54-4b0d-83b8-6435a72948de"
+      },
+      {
+        "id": "1cc3b525-e046-4c7c-bce5-a5b9855023a0",
+        "checked_in": false,
+        "created_at": "2023-08-13T18:08:48.358Z",
+        "updated_at": "2023-08-13T20:38:05.141Z",
+        "registration_id": "084e8508-c996-4522-97a2-7eae87399469"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "36b1e4d4-349f-42c9-909b-45c5b3da8d4a",
+        "email": "Favian.Ryan@gmail.com",
+        "firstName": "Jeromy",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39978613",
+        "tenantId": null
+      },
+      {
+        "reference": "43af0fe0-d53d-4d39-87b4-f3c7c7e64dca",
+        "email": "Demario_Feeney61@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/511.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b774b8e3-68f8-4fdd-af54-25dead5b88bc",
+        "email": "Walton51@yahoo.com",
+        "firstName": "Trenton",
+        "lastName": "Hettinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1142.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4f70cc57-5e15-4359-91b7-acb7d17fc5f6",
+        "email": "Dewayne.Hane@gmail.com",
+        "firstName": "Barry",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1239.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9be6a62d-507f-48ea-9ca5-16d5e4cab2e6",
+        "email": "Arielle81@hotmail.com",
+        "firstName": "Casimer",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1060.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "event": [
+      {
+        "id": "54a25403-caa1-4002-8248-92bc555f32e7",
+        "name": "Conference A",
+        "created_at": "2023-08-13T10:03:10.270Z",
+        "updated_at": "2023-08-13T12:51:08.559Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "a8cc5295-53bc-42d3-b300-97a8c1406ae4",
+        "name": "Workshop B",
+        "created_at": "2023-08-13T18:12:11.619Z",
+        "updated_at": "2023-08-13T02:02:55.458Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "93c17c0a-57c8-470a-9a88-1637aa80cad1",
+        "name": "Seminar C",
+        "created_at": "2023-08-13T09:24:32.713Z",
+        "updated_at": "2023-08-12T23:04:15.716Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "da8e248f-cb28-4c28-b11c-f4a0ec689859",
+        "name": "Exhibition D",
+        "created_at": "2023-08-13T20:42:36.536Z",
+        "updated_at": "2023-08-13T20:04:17.408Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "82033d04-fb1f-4ec0-b4ef-d36f5083c74e",
+        "name": "Webinar E",
+        "created_at": "2023-08-13T16:17:36.312Z",
+        "updated_at": "2023-08-12T22:53:14.157Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "venue": [
+      {
+        "id": "d63fa954-93e4-4692-8d7b-8486010d9712",
+        "name": "Venue X",
+        "created_at": "2023-08-13T08:34:48.402Z",
+        "updated_at": "2023-08-13T14:16:14.567Z",
+        "event_id": "54a25403-caa1-4002-8248-92bc555f32e7"
+      },
+      {
+        "id": "4cc0ece9-225f-495a-91c4-334efaafd228",
+        "name": "Venue Y",
+        "created_at": "2023-08-13T11:58:17.016Z",
+        "updated_at": "2023-08-13T09:50:31.582Z",
+        "event_id": "a8cc5295-53bc-42d3-b300-97a8c1406ae4"
+      },
+      {
+        "id": "cffcb654-8c24-46f5-9e52-e9924a25117a",
+        "name": "Venue Z",
+        "created_at": "2023-08-13T04:12:30.042Z",
+        "updated_at": "2023-08-13T16:19:21.050Z",
+        "event_id": "da8e248f-cb28-4c28-b11c-f4a0ec689859"
+      },
+      {
+        "id": "7e656f03-2f39-4b68-92e6-ea30f36a42ea",
+        "name": "Venue P",
+        "created_at": "2023-08-13T11:15:26.436Z",
+        "updated_at": "2023-08-13T12:39:58.904Z",
+        "event_id": "54a25403-caa1-4002-8248-92bc555f32e7"
+      },
+      {
+        "id": "0e40bb2b-bed9-4041-9e57-7e985123e822",
+        "name": "Venue Q",
+        "created_at": "2023-08-13T11:09:43.400Z",
+        "updated_at": "2023-08-12T23:07:00.465Z",
+        "event_id": "54a25403-caa1-4002-8248-92bc555f32e7"
+      }
+    ],
+    "session": [
+      {
+        "id": "173428f4-4334-4124-84a3-b12d4ded501f",
+        "name": "Session 1",
+        "created_at": "2023-08-13T01:33:50.384Z",
+        "updated_at": "2023-08-13T21:04:13.645Z",
+        "event_id": "da8e248f-cb28-4c28-b11c-f4a0ec689859"
+      },
+      {
+        "id": "102624a5-2c7a-447a-9244-9180834ea38c",
+        "name": "Session 2",
+        "created_at": "2023-08-13T18:41:28.080Z",
+        "updated_at": "2023-08-13T16:42:18.532Z",
+        "event_id": "82033d04-fb1f-4ec0-b4ef-d36f5083c74e"
+      },
+      {
+        "id": "f1a09146-335b-408b-8077-8ee6c33b9585",
+        "name": "Session 3",
+        "created_at": "2023-08-13T02:32:55.207Z",
+        "updated_at": "2023-08-13T04:12:51.734Z",
+        "event_id": "93c17c0a-57c8-470a-9a88-1637aa80cad1"
+      },
+      {
+        "id": "b319c382-6b62-491a-869f-ba42d25c5142",
+        "name": "Session 4",
+        "created_at": "2023-08-13T07:37:27.735Z",
+        "updated_at": "2023-08-13T21:23:52.001Z",
+        "event_id": "82033d04-fb1f-4ec0-b4ef-d36f5083c74e"
+      },
+      {
+        "id": "e3e86486-4991-4591-a00f-5f0f9de43607",
+        "name": "Session 5",
+        "created_at": "2023-08-13T04:43:59.909Z",
+        "updated_at": "2023-08-13T13:27:47.013Z",
+        "event_id": "da8e248f-cb28-4c28-b11c-f4a0ec689859"
+      }
+    ],
+    "registration": [
+      {
+        "id": "b6401498-5e83-46f4-8887-85efea2ce457",
+        "attendee_name": "John Doe",
+        "created_at": "2023-08-13T18:21:53.636Z",
+        "updated_at": "2023-08-12T23:14:46.362Z",
+        "event_id": "da8e248f-cb28-4c28-b11c-f4a0ec689859"
+      },
+      {
+        "id": "b0dff14f-b335-4ab2-a89b-4c6db9787cb9",
+        "attendee_name": "Jane Smith",
+        "created_at": "2023-08-13T10:11:34.926Z",
+        "updated_at": "2023-08-13T09:21:04.270Z",
+        "event_id": "82033d04-fb1f-4ec0-b4ef-d36f5083c74e"
+      },
+      {
+        "id": "8367a736-c24f-497e-bba2-826ee7ba567f",
+        "attendee_name": "Michael Brown",
+        "created_at": "2023-08-13T16:39:22.999Z",
+        "updated_at": "2023-08-13T15:41:52.052Z",
+        "event_id": "93c17c0a-57c8-470a-9a88-1637aa80cad1"
+      },
+      {
+        "id": "efd3fc2b-01c6-498f-b0d6-04f04b0c1cc4",
+        "attendee_name": "Sarah Jones",
+        "created_at": "2023-08-13T09:25:53.213Z",
+        "updated_at": "2023-08-13T16:33:40.242Z",
+        "event_id": "82033d04-fb1f-4ec0-b4ef-d36f5083c74e"
+      },
+      {
+        "id": "7f6085c7-58c6-4f32-8e1e-05476d498463",
+        "attendee_name": "David Wilson",
+        "created_at": "2023-08-13T13:15:47.202Z",
+        "updated_at": "2023-08-13T13:29:40.934Z",
+        "event_id": "a8cc5295-53bc-42d3-b300-97a8c1406ae4"
+      }
+    ],
+    "promotion": [
+      {
+        "id": "e0845935-0324-4710-a44a-d657b097455e",
+        "description": "Get 20% off on all products.",
+        "created_at": "2023-08-13T02:30:11.118Z",
+        "updated_at": "2023-08-13T05:43:26.894Z",
+        "event_id": "82033d04-fb1f-4ec0-b4ef-d36f5083c74e"
+      },
+      {
+        "id": "2c37ad3a-ff42-4b33-8cdc-24557475945b",
+        "description": "Limited time offer: Buy one, get one free.",
+        "created_at": "2023-08-13T09:25:00.176Z",
+        "updated_at": "2023-08-13T13:04:48.418Z",
+        "event_id": "93c17c0a-57c8-470a-9a88-1637aa80cad1"
+      },
+      {
+        "id": "b8f8daa9-5ba8-4b6a-ac96-8296af2e5adf",
+        "description": "Join now and receive a free gift.",
+        "created_at": "2023-08-13T07:36:04.693Z",
+        "updated_at": "2023-08-13T18:23:04.345Z",
+        "event_id": "93c17c0a-57c8-470a-9a88-1637aa80cad1"
+      },
+      {
+        "id": "71a4cc41-367a-4893-88e0-6d10438d8362",
+        "description": "Exclusive discount for new customers.",
+        "created_at": "2023-08-13T17:53:54.343Z",
+        "updated_at": "2023-08-13T15:34:09.152Z",
+        "event_id": "54a25403-caa1-4002-8248-92bc555f32e7"
+      },
+      {
+        "id": "c08a98d7-b4f8-4759-9a12-f47ccba9e247",
+        "description": "Refer a friend and get rewarded.",
+        "created_at": "2023-08-13T12:26:05.950Z",
+        "updated_at": "2023-08-12T22:55:08.963Z",
+        "event_id": "54a25403-caa1-4002-8248-92bc555f32e7"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "c7a996f7-6b73-4008-bc13-ee166c6f30b6",
+        "analysis": "Analysis A",
+        "created_at": "2023-08-12T23:12:10.664Z",
+        "updated_at": "2023-08-13T16:21:53.205Z",
+        "event_id": "54a25403-caa1-4002-8248-92bc555f32e7"
+      },
+      {
+        "id": "c7740337-3d6e-43e2-9957-4f90c28dd895",
+        "analysis": "Analysis B",
+        "created_at": "2023-08-13T11:38:39.547Z",
+        "updated_at": "2023-08-13T19:46:48.895Z",
+        "event_id": "da8e248f-cb28-4c28-b11c-f4a0ec689859"
+      },
+      {
+        "id": "d3056196-64b4-4d1f-a546-c18b4352ca24",
+        "analysis": "Analysis C",
+        "created_at": "2023-08-13T01:14:43.195Z",
+        "updated_at": "2023-08-13T18:21:51.675Z",
+        "event_id": "a8cc5295-53bc-42d3-b300-97a8c1406ae4"
+      },
+      {
+        "id": "19ac91f8-74de-4672-a43a-839666425260",
+        "analysis": "Analysis D",
+        "created_at": "2023-08-13T05:44:26.208Z",
+        "updated_at": "2023-08-13T15:25:08.242Z",
+        "event_id": "a8cc5295-53bc-42d3-b300-97a8c1406ae4"
+      },
+      {
+        "id": "6c177929-cf56-4f55-8565-5c2517f1d7f5",
+        "analysis": "Analysis E",
+        "created_at": "2023-08-13T14:57:48.404Z",
+        "updated_at": "2023-08-13T16:18:26.370Z",
+        "event_id": "54a25403-caa1-4002-8248-92bc555f32e7"
+      }
+    ],
+    "check_in": [
+      {
+        "id": "9ba2099b-ed47-45df-94f5-3821744662b9",
+        "checked_in": true,
+        "created_at": "2023-08-12T23:53:55.133Z",
+        "updated_at": "2023-08-13T00:02:10.339Z",
+        "registration_id": "b6401498-5e83-46f4-8887-85efea2ce457"
+      },
+      {
+        "id": "0113a82f-f492-4a8f-8244-512a98c668bf",
+        "checked_in": false,
+        "created_at": "2023-08-13T06:42:53.267Z",
+        "updated_at": "2023-08-13T15:33:42.548Z",
+        "registration_id": "b0dff14f-b335-4ab2-a89b-4c6db9787cb9"
+      },
+      {
+        "id": "cc15bd84-667c-47c6-a386-9d12ce083289",
+        "checked_in": false,
+        "created_at": "2023-08-13T06:02:05.535Z",
+        "updated_at": "2023-08-12T22:47:26.936Z",
+        "registration_id": "8367a736-c24f-497e-bba2-826ee7ba567f"
+      },
+      {
+        "id": "b5eb1db5-7518-4a36-aa44-d1db564d47e2",
+        "checked_in": true,
+        "created_at": "2023-08-13T02:46:57.720Z",
+        "updated_at": "2023-08-13T10:10:56.665Z",
+        "registration_id": "efd3fc2b-01c6-498f-b0d6-04f04b0c1cc4"
+      },
+      {
+        "id": "1ab6c8c0-04b9-46b4-abe0-e6ad8c3963fd",
+        "checked_in": false,
+        "created_at": "2023-08-13T16:08:11.800Z",
+        "updated_at": "2023-08-13T18:50:45.130Z",
+        "registration_id": "efd3fc2b-01c6-498f-b0d6-04f04b0c1cc4"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f0412f2b-2a9b-4549-b1e8-ba28948140aa",
+        "email": "Ford_Spinka@gmail.com",
+        "firstName": "Bret",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23072654",
+        "tenantId": null
+      },
+      {
+        "reference": "495b34b9-d4da-4fa9-95fc-1b99301c23e0",
+        "email": "Raymond_Greenfelder99@hotmail.com",
+        "firstName": "Denis",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/252.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "572b6991-357d-4a25-80dd-b0dd3d18a8da",
+        "email": "Liliana3@hotmail.com",
+        "firstName": "Lydia",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/618.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bcba047d-0502-4882-beea-823691b14708",
+        "email": "Abbie70@yahoo.com",
+        "firstName": "Emerald",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/46.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b26d049-d279-48b8-98f9-f62805889f35",
+        "email": "Bobbie11@yahoo.com",
+        "firstName": "Adolph",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1164.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "event": [
+      {
+        "id": "a37e2642-3158-45e0-821c-fd7362b49bfb",
+        "name": "Conference A",
+        "created_at": "2023-08-13T21:09:10.836Z",
+        "updated_at": "2023-08-13T05:27:57.201Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "4ac48a13-9179-44da-8028-e82f876d7e01",
+        "name": "Workshop B",
+        "created_at": "2023-08-13T07:05:44.550Z",
+        "updated_at": "2023-08-13T20:11:00.802Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "9838ff89-bb87-43a5-997c-5d9c28aec7be",
+        "name": "Seminar C",
+        "created_at": "2023-08-13T11:30:16.334Z",
+        "updated_at": "2023-08-13T02:20:09.001Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "0485c8d1-d228-4722-8ba0-49a33e9e2a7d",
+        "name": "Exhibition D",
+        "created_at": "2023-08-13T11:36:50.577Z",
+        "updated_at": "2023-08-13T16:29:48.737Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "9c146ac0-7be9-40c6-ac8a-2b5a41b52e9f",
+        "name": "Webinar E",
+        "created_at": "2023-08-13T18:00:59.741Z",
+        "updated_at": "2023-08-12T22:44:57.521Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "venue": [
+      {
+        "id": "399efb46-e17f-4153-845d-990492fb4fd9",
+        "name": "Venue X",
+        "created_at": "2023-08-13T02:25:53.330Z",
+        "updated_at": "2023-08-13T20:37:23.914Z",
+        "event_id": "a37e2642-3158-45e0-821c-fd7362b49bfb"
+      },
+      {
+        "id": "cacdae96-523e-4784-b558-dcd398ab2d48",
+        "name": "Venue Y",
+        "created_at": "2023-08-13T07:46:00.609Z",
+        "updated_at": "2023-08-13T04:49:41.858Z",
+        "event_id": "a37e2642-3158-45e0-821c-fd7362b49bfb"
+      },
+      {
+        "id": "0a13b15b-70d1-445b-ba86-8488772f0c10",
+        "name": "Venue Z",
+        "created_at": "2023-08-12T22:45:21.324Z",
+        "updated_at": "2023-08-13T21:33:56.754Z",
+        "event_id": "9838ff89-bb87-43a5-997c-5d9c28aec7be"
+      },
+      {
+        "id": "9d3c72e0-f62d-4d59-b24c-b53497a9b6ac",
+        "name": "Venue P",
+        "created_at": "2023-08-13T01:07:02.098Z",
+        "updated_at": "2023-08-13T13:57:10.603Z",
+        "event_id": "0485c8d1-d228-4722-8ba0-49a33e9e2a7d"
+      },
+      {
+        "id": "85a47a21-c36f-4df9-b58e-a73725723966",
+        "name": "Venue Q",
+        "created_at": "2023-08-13T03:14:41.455Z",
+        "updated_at": "2023-08-13T18:07:31.479Z",
+        "event_id": "0485c8d1-d228-4722-8ba0-49a33e9e2a7d"
+      }
+    ],
+    "session": [
+      {
+        "id": "292eb2c1-ea9c-44e3-8f4a-50d16cbc4f82",
+        "name": "Session 1",
+        "created_at": "2023-08-13T16:25:57.227Z",
+        "updated_at": "2023-08-13T08:35:43.471Z",
+        "event_id": "0485c8d1-d228-4722-8ba0-49a33e9e2a7d"
+      },
+      {
+        "id": "0e827be5-9526-4670-8f04-6fae5d009cfd",
+        "name": "Session 2",
+        "created_at": "2023-08-13T14:18:11.831Z",
+        "updated_at": "2023-08-13T11:44:12.919Z",
+        "event_id": "a37e2642-3158-45e0-821c-fd7362b49bfb"
+      },
+      {
+        "id": "5850d6aa-55fd-4347-8765-94fa1bac85de",
+        "name": "Session 3",
+        "created_at": "2023-08-13T22:09:30.813Z",
+        "updated_at": "2023-08-13T16:40:25.407Z",
+        "event_id": "0485c8d1-d228-4722-8ba0-49a33e9e2a7d"
+      },
+      {
+        "id": "a4fb36d9-eb86-46a7-ab7e-8cb458959de6",
+        "name": "Session 4",
+        "created_at": "2023-08-13T19:08:29.937Z",
+        "updated_at": "2023-08-13T13:36:09.154Z",
+        "event_id": "9838ff89-bb87-43a5-997c-5d9c28aec7be"
+      },
+      {
+        "id": "384db80c-f441-422e-adfc-f650ae6f2f1a",
+        "name": "Session 5",
+        "created_at": "2023-08-13T09:26:45.594Z",
+        "updated_at": "2023-08-13T04:31:08.568Z",
+        "event_id": "9c146ac0-7be9-40c6-ac8a-2b5a41b52e9f"
+      }
+    ],
+    "registration": [
+      {
+        "id": "930c5c31-b0b1-4406-a8a3-127472a3b7e2",
+        "attendee_name": "John Doe",
+        "created_at": "2023-08-13T02:48:15.813Z",
+        "updated_at": "2023-08-12T23:03:21.756Z",
+        "event_id": "0485c8d1-d228-4722-8ba0-49a33e9e2a7d"
+      },
+      {
+        "id": "094b82a3-dfaa-4ec7-a548-2e782f5cf91d",
+        "attendee_name": "Jane Smith",
+        "created_at": "2023-08-13T12:31:48.324Z",
+        "updated_at": "2023-08-13T05:06:24.435Z",
+        "event_id": "4ac48a13-9179-44da-8028-e82f876d7e01"
+      },
+      {
+        "id": "2be7f769-3961-4c27-96a1-10871292c172",
+        "attendee_name": "Michael Brown",
+        "created_at": "2023-08-13T13:36:30.276Z",
+        "updated_at": "2023-08-12T23:27:06.637Z",
+        "event_id": "9838ff89-bb87-43a5-997c-5d9c28aec7be"
+      },
+      {
+        "id": "c02149b6-8ed5-46ae-9e7a-e0f2bad426b4",
+        "attendee_name": "Sarah Jones",
+        "created_at": "2023-08-13T08:35:58.060Z",
+        "updated_at": "2023-08-13T14:46:11.668Z",
+        "event_id": "a37e2642-3158-45e0-821c-fd7362b49bfb"
+      },
+      {
+        "id": "22ec12bc-52e3-48b3-941a-aca009ecb837",
+        "attendee_name": "David Wilson",
+        "created_at": "2023-08-13T16:39:38.164Z",
+        "updated_at": "2023-08-13T06:57:22.836Z",
+        "event_id": "a37e2642-3158-45e0-821c-fd7362b49bfb"
+      }
+    ],
+    "promotion": [
+      {
+        "id": "9d160c7d-69c1-4621-a0cb-ffdb81d9a712",
+        "description": "Get 20% off on all products.",
+        "created_at": "2023-08-13T13:18:44.936Z",
+        "updated_at": "2023-08-13T14:48:02.075Z",
+        "event_id": "9838ff89-bb87-43a5-997c-5d9c28aec7be"
+      },
+      {
+        "id": "855a589f-abb2-40c6-974d-fb57379921c2",
+        "description": "Limited time offer: Buy one, get one free.",
+        "created_at": "2023-08-13T14:39:24.677Z",
+        "updated_at": "2023-08-12T23:04:21.370Z",
+        "event_id": "0485c8d1-d228-4722-8ba0-49a33e9e2a7d"
+      },
+      {
+        "id": "21d89558-2480-418f-934c-ae82d4560d4d",
+        "description": "Join now and receive a free gift.",
+        "created_at": "2023-08-13T12:50:29.868Z",
+        "updated_at": "2023-08-13T11:07:05.355Z",
+        "event_id": "4ac48a13-9179-44da-8028-e82f876d7e01"
+      },
+      {
+        "id": "649abf98-cfd8-4914-bea4-d7ece697bcbd",
+        "description": "Exclusive discount for new customers.",
+        "created_at": "2023-08-12T23:13:46.098Z",
+        "updated_at": "2023-08-13T14:18:33.232Z",
+        "event_id": "9838ff89-bb87-43a5-997c-5d9c28aec7be"
+      },
+      {
+        "id": "a7f0bc7f-ec3f-46ad-95aa-c97b07ca0593",
+        "description": "Refer a friend and get rewarded.",
+        "created_at": "2023-08-13T17:48:12.869Z",
+        "updated_at": "2023-08-12T23:36:55.475Z",
+        "event_id": "0485c8d1-d228-4722-8ba0-49a33e9e2a7d"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "7fd2cb4a-0832-47bb-ad8c-4187dbebf79e",
+        "analysis": "Analysis A",
+        "created_at": "2023-08-13T14:22:45.721Z",
+        "updated_at": "2023-08-13T07:01:45.589Z",
+        "event_id": "4ac48a13-9179-44da-8028-e82f876d7e01"
+      },
+      {
+        "id": "bc1362df-762b-46f5-a8b9-cb88bf599519",
+        "analysis": "Analysis B",
+        "created_at": "2023-08-13T12:39:25.687Z",
+        "updated_at": "2023-08-13T10:03:04.013Z",
+        "event_id": "a37e2642-3158-45e0-821c-fd7362b49bfb"
+      },
+      {
+        "id": "e12f9a1d-078c-4bf8-8ec2-c27c0104018e",
+        "analysis": "Analysis C",
+        "created_at": "2023-08-13T05:15:53.381Z",
+        "updated_at": "2023-08-13T02:34:27.012Z",
+        "event_id": "9c146ac0-7be9-40c6-ac8a-2b5a41b52e9f"
+      },
+      {
+        "id": "a07dd54a-0f54-49f3-a233-3e8b890e95b8",
+        "analysis": "Analysis D",
+        "created_at": "2023-08-13T04:45:38.113Z",
+        "updated_at": "2023-08-12T23:11:47.164Z",
+        "event_id": "9838ff89-bb87-43a5-997c-5d9c28aec7be"
+      },
+      {
+        "id": "7e480378-fc50-4206-b218-e370ec06c615",
+        "analysis": "Analysis E",
+        "created_at": "2023-08-13T06:57:32.655Z",
+        "updated_at": "2023-08-13T20:20:26.784Z",
+        "event_id": "9c146ac0-7be9-40c6-ac8a-2b5a41b52e9f"
+      }
+    ],
+    "check_in": [
+      {
+        "id": "0759e3b9-dcfe-4604-903e-a985fac4c56e",
+        "checked_in": true,
+        "created_at": "2023-08-13T05:35:18.276Z",
+        "updated_at": "2023-08-13T17:36:32.938Z",
+        "registration_id": "094b82a3-dfaa-4ec7-a548-2e782f5cf91d"
+      },
+      {
+        "id": "ada312b0-e7ea-41b8-855f-cc33daa717e9",
+        "checked_in": true,
+        "created_at": "2023-08-12T22:44:12.273Z",
+        "updated_at": "2023-08-13T17:26:33.434Z",
+        "registration_id": "930c5c31-b0b1-4406-a8a3-127472a3b7e2"
+      },
+      {
+        "id": "62ae6cfb-0287-48d6-99eb-af3392e13c2b",
+        "checked_in": false,
+        "created_at": "2023-08-13T21:25:13.437Z",
+        "updated_at": "2023-08-13T13:18:16.100Z",
+        "registration_id": "22ec12bc-52e3-48b3-941a-aca009ecb837"
+      },
+      {
+        "id": "23fc9cf8-dbd0-46d8-b269-25f0c5a8a4af",
+        "checked_in": false,
+        "created_at": "2023-08-13T19:30:21.840Z",
+        "updated_at": "2023-08-13T06:01:36.831Z",
+        "registration_id": "c02149b6-8ed5-46ae-9e7a-e0f2bad426b4"
+      },
+      {
+        "id": "e471def5-4764-411f-ab07-95c91b004b14",
+        "checked_in": true,
+        "created_at": "2023-08-13T21:37:01.300Z",
+        "updated_at": "2023-08-13T19:18:35.982Z",
+        "registration_id": "094b82a3-dfaa-4ec7-a548-2e782f5cf91d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1089e774-ebac-4f84-a630-04865ea3e48c",
+        "email": "Giovanna92@yahoo.com",
+        "firstName": "Manley",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70858356",
+        "tenantId": null
+      },
+      {
+        "reference": "fc0faea5-f9ee-4a43-8817-fbc89aba21ac",
+        "email": "Mary_Pfannerstill@gmail.com",
+        "firstName": "Trenton",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46025248",
+        "tenantId": null
+      },
+      {
+        "reference": "9856bf45-b5df-42b7-af06-9916e5b97511",
+        "email": "Muriel33@gmail.com",
+        "firstName": "Modesto",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1030.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "203d5ced-eb58-4ea6-8912-4cb696e82ffd",
+        "email": "Roxane.Pouros@gmail.com",
+        "firstName": "Curt",
+        "lastName": "Funk-Funk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/383.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "422359cf-e7b9-424d-8d8b-ed75e2922c4c",
+        "email": "Onie_Skiles51@yahoo.com",
+        "firstName": "Zachary",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/784.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "event": [
+      {
+        "id": "a3f6f8a1-2ccc-4cf1-8075-e1ee59174005",
+        "name": "Conference A",
+        "created_at": "2023-08-12T22:49:38.615Z",
+        "updated_at": "2023-08-13T06:02:54.608Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "ef840511-8130-44d0-a481-6a515df1faa8",
+        "name": "Workshop B",
+        "created_at": "2023-08-13T09:14:05.564Z",
+        "updated_at": "2023-08-13T06:39:10.206Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "8982f92d-5980-4685-a622-c2053508384c",
+        "name": "Seminar C",
+        "created_at": "2023-08-13T17:55:29.390Z",
+        "updated_at": "2023-08-13T00:54:13.705Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "3f86c7a5-dfa0-4313-b2c2-83433fd54f8f",
+        "name": "Exhibition D",
+        "created_at": "2023-08-13T10:44:00.481Z",
+        "updated_at": "2023-08-13T00:25:54.067Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "7b31ec3d-7041-4a40-bdf6-130f0acbabea",
+        "name": "Webinar E",
+        "created_at": "2023-08-13T01:52:05.945Z",
+        "updated_at": "2023-08-13T01:32:04.674Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "venue": [
+      {
+        "id": "81b9452f-75ea-4c0c-b3b6-325cbe663845",
+        "name": "Venue A",
+        "created_at": "2023-08-13T05:31:57.429Z",
+        "updated_at": "2023-08-13T18:04:53.480Z",
+        "event_id": "ef840511-8130-44d0-a481-6a515df1faa8"
+      },
+      {
+        "id": "1737db90-33c2-4bc5-bb7f-0fe6eb43069a",
+        "name": "Venue B",
+        "created_at": "2023-08-13T01:50:48.470Z",
+        "updated_at": "2023-08-12T22:46:04.344Z",
+        "event_id": "a3f6f8a1-2ccc-4cf1-8075-e1ee59174005"
+      },
+      {
+        "id": "ec4ead8d-eee3-4543-959c-9a69b5353999",
+        "name": "Venue C",
+        "created_at": "2023-08-13T08:51:52.224Z",
+        "updated_at": "2023-08-13T09:58:16.816Z",
+        "event_id": "ef840511-8130-44d0-a481-6a515df1faa8"
+      },
+      {
+        "id": "a942a36a-019c-43cd-982e-18eee07602ed",
+        "name": "Venue D",
+        "created_at": "2023-08-13T14:35:37.988Z",
+        "updated_at": "2023-08-13T09:01:14.645Z",
+        "event_id": "3f86c7a5-dfa0-4313-b2c2-83433fd54f8f"
+      },
+      {
+        "id": "414181a6-e7a4-4183-85f0-620370b596a7",
+        "name": "Venue E",
+        "created_at": "2023-08-13T13:50:03.396Z",
+        "updated_at": "2023-08-12T23:52:35.464Z",
+        "event_id": "ef840511-8130-44d0-a481-6a515df1faa8"
+      }
+    ],
+    "session": [
+      {
+        "id": "a3e6a1ed-931a-4b7d-b119-eab78637b4ba",
+        "name": "Session A",
+        "created_at": "2023-08-13T18:50:08.123Z",
+        "updated_at": "2023-08-13T15:15:57.406Z",
+        "event_id": "8982f92d-5980-4685-a622-c2053508384c"
+      },
+      {
+        "id": "3a3cdc11-7e86-4aec-81ad-eb738933d236",
+        "name": "Session B",
+        "created_at": "2023-08-13T01:59:42.606Z",
+        "updated_at": "2023-08-13T06:04:07.953Z",
+        "event_id": "7b31ec3d-7041-4a40-bdf6-130f0acbabea"
+      },
+      {
+        "id": "06bbd10f-ab57-4a22-bac4-e18a928c2e9d",
+        "name": "Session C",
+        "created_at": "2023-08-13T13:31:29.554Z",
+        "updated_at": "2023-08-13T11:58:05.401Z",
+        "event_id": "7b31ec3d-7041-4a40-bdf6-130f0acbabea"
+      },
+      {
+        "id": "03e6f0b9-7803-4193-880d-ba6e25cd71b2",
+        "name": "Session D",
+        "created_at": "2023-08-13T05:39:34.928Z",
+        "updated_at": "2023-08-13T11:47:54.734Z",
+        "event_id": "8982f92d-5980-4685-a622-c2053508384c"
+      },
+      {
+        "id": "8a4c4c23-278b-4084-8a2f-1ccdc7178ad9",
+        "name": "Session E",
+        "created_at": "2023-08-13T02:01:48.286Z",
+        "updated_at": "2023-08-13T08:22:12.123Z",
+        "event_id": "3f86c7a5-dfa0-4313-b2c2-83433fd54f8f"
+      }
+    ],
+    "registration": [
+      {
+        "id": "c10428a2-6f89-4dee-8701-d83eea29eea7",
+        "attendee_name": "John Doe",
+        "created_at": "2023-08-13T16:37:50.231Z",
+        "updated_at": "2023-08-13T05:29:06.115Z",
+        "event_id": "ef840511-8130-44d0-a481-6a515df1faa8"
+      },
+      {
+        "id": "34005caa-2b41-4b71-81bf-6b5213c3f75a",
+        "attendee_name": "Jane Smith",
+        "created_at": "2023-08-13T03:24:06.048Z",
+        "updated_at": "2023-08-13T02:25:48.120Z",
+        "event_id": "3f86c7a5-dfa0-4313-b2c2-83433fd54f8f"
+      },
+      {
+        "id": "721715bf-4a9b-41f4-a6e6-6f121706aab8",
+        "attendee_name": "Michael Brown",
+        "created_at": "2023-08-13T03:09:29.871Z",
+        "updated_at": "2023-08-13T18:03:29.417Z",
+        "event_id": "7b31ec3d-7041-4a40-bdf6-130f0acbabea"
+      },
+      {
+        "id": "1d3307d7-0986-4f29-a082-926a58ad2467",
+        "attendee_name": "Sarah Jones",
+        "created_at": "2023-08-12T22:49:02.512Z",
+        "updated_at": "2023-08-13T11:00:02.981Z",
+        "event_id": "3f86c7a5-dfa0-4313-b2c2-83433fd54f8f"
+      },
+      {
+        "id": "c2846dbe-c1c6-482d-aac1-b007c84d0478",
+        "attendee_name": "David Wilson",
+        "created_at": "2023-08-12T23:19:22.102Z",
+        "updated_at": "2023-08-12T23:49:17.122Z",
+        "event_id": "3f86c7a5-dfa0-4313-b2c2-83433fd54f8f"
+      }
+    ],
+    "promotion": [
+      {
+        "id": "65953f92-c594-4e50-baa8-dca06af5fa8a",
+        "description": "Get 20% off on all products.",
+        "created_at": "2023-08-13T18:01:42.664Z",
+        "updated_at": "2023-08-13T00:17:06.460Z",
+        "event_id": "7b31ec3d-7041-4a40-bdf6-130f0acbabea"
+      },
+      {
+        "id": "cd1ac603-d57f-4490-a6e4-0c40e26c51d2",
+        "description": "Limited time offer: Buy one get one free.",
+        "created_at": "2023-08-13T03:13:29.681Z",
+        "updated_at": "2023-08-13T08:51:16.090Z",
+        "event_id": "a3f6f8a1-2ccc-4cf1-8075-e1ee59174005"
+      },
+      {
+        "id": "835305a8-be0b-445d-ab81-60574e38965e",
+        "description": "Join now and receive a free gift.",
+        "created_at": "2023-08-13T16:40:50.733Z",
+        "updated_at": "2023-08-13T02:22:27.250Z",
+        "event_id": "8982f92d-5980-4685-a622-c2053508384c"
+      },
+      {
+        "id": "9b5c2d25-72b6-4dd0-a358-2a45119daee9",
+        "description": "Exclusive discount for new customers.",
+        "created_at": "2023-08-13T06:41:52.906Z",
+        "updated_at": "2023-08-13T11:08:01.733Z",
+        "event_id": "a3f6f8a1-2ccc-4cf1-8075-e1ee59174005"
+      },
+      {
+        "id": "db8fe332-2491-4f65-9e06-046ef0d5ab82",
+        "description": "Refer a friend and get rewarded.",
+        "created_at": "2023-08-13T20:38:48.719Z",
+        "updated_at": "2023-08-13T07:47:39.407Z",
+        "event_id": "7b31ec3d-7041-4a40-bdf6-130f0acbabea"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "f8bbb8ac-5327-4ae4-a53b-9635762bc8d0",
+        "analysis": "Analysis A",
+        "created_at": "2023-08-13T14:27:24.037Z",
+        "updated_at": "2023-08-13T00:35:17.124Z",
+        "event_id": "a3f6f8a1-2ccc-4cf1-8075-e1ee59174005"
+      },
+      {
+        "id": "a36a24c0-10d8-4306-a4c0-dc025846b2f5",
+        "analysis": "Analysis B",
+        "created_at": "2023-08-13T13:53:44.244Z",
+        "updated_at": "2023-08-13T17:17:22.525Z",
+        "event_id": "ef840511-8130-44d0-a481-6a515df1faa8"
+      },
+      {
+        "id": "ead3ecda-f212-4d2b-ba83-5f33cfb8b778",
+        "analysis": "Analysis C",
+        "created_at": "2023-08-13T02:59:19.379Z",
+        "updated_at": "2023-08-13T12:52:11.950Z",
+        "event_id": "a3f6f8a1-2ccc-4cf1-8075-e1ee59174005"
+      },
+      {
+        "id": "15e7de4b-8c96-4b6c-8409-87b6078408e3",
+        "analysis": "Analysis D",
+        "created_at": "2023-08-13T11:41:59.311Z",
+        "updated_at": "2023-08-13T10:03:46.630Z",
+        "event_id": "8982f92d-5980-4685-a622-c2053508384c"
+      },
+      {
+        "id": "c4ec4c2f-cf58-4527-96bb-43fe34924d9e",
+        "analysis": "Analysis E",
+        "created_at": "2023-08-12T23:52:06.182Z",
+        "updated_at": "2023-08-13T18:31:40.775Z",
+        "event_id": "8982f92d-5980-4685-a622-c2053508384c"
+      }
+    ],
+    "check_in": [
+      {
+        "id": "4eb23d5c-db6e-48cd-a1ca-77cfa6496e89",
+        "checked_in": false,
+        "created_at": "2023-08-13T18:45:29.697Z",
+        "updated_at": "2023-08-13T11:35:58.860Z",
+        "registration_id": "c10428a2-6f89-4dee-8701-d83eea29eea7"
+      },
+      {
+        "id": "41497292-5b02-4087-b3c6-69eec01e2f09",
+        "checked_in": true,
+        "created_at": "2023-08-13T06:31:23.377Z",
+        "updated_at": "2023-08-13T20:25:34.051Z",
+        "registration_id": "1d3307d7-0986-4f29-a082-926a58ad2467"
+      },
+      {
+        "id": "8a016485-4964-4081-bd9f-3aa5ab3d85a8",
+        "checked_in": true,
+        "created_at": "2023-08-13T01:16:19.687Z",
+        "updated_at": "2023-08-13T18:22:55.968Z",
+        "registration_id": "c2846dbe-c1c6-482d-aac1-b007c84d0478"
+      },
+      {
+        "id": "c5e963e7-7259-4a6c-b087-b123ab58f476",
+        "checked_in": false,
+        "created_at": "2023-08-13T18:34:40.965Z",
+        "updated_at": "2023-08-13T17:51:53.656Z",
+        "registration_id": "c2846dbe-c1c6-482d-aac1-b007c84d0478"
+      },
+      {
+        "id": "1a29ae29-6d8e-419e-98b0-a52a1cf2024a",
+        "checked_in": false,
+        "created_at": "2023-08-13T09:27:28.737Z",
+        "updated_at": "2023-08-13T14:10:46.690Z",
+        "registration_id": "34005caa-2b41-4b71-81bf-6b5213c3f75a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7723f240-99ce-4733-ab38-bbbf979d40ff",
+        "email": "Rose.Brekke85@gmail.com",
+        "firstName": "Leatha",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26861461",
+        "tenantId": null
+      },
+      {
+        "reference": "7ba2a56d-595a-43d1-9f81-3dc2d57c4668",
+        "email": "Julian57@hotmail.com",
+        "firstName": "Alaina",
+        "lastName": "Kirlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/735.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c6638cf2-aba4-48bb-ac86-a632639bb491",
+        "email": "Elissa.Koch@gmail.com",
+        "firstName": "Ulises",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62809332",
+        "tenantId": null
+      },
+      {
+        "reference": "64af8fcc-ff80-4d3e-9bb4-a80cb4d7fefa",
+        "email": "Johann.Harvey14@gmail.com",
+        "firstName": "Preston",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/820.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4ef34fc-f9b5-4d68-960c-1cc760a4fbdc",
+        "email": "Lela94@hotmail.com",
+        "firstName": "Nicholas",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/836.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "event": [
+      {
+        "id": "fe4baf20-ebec-4911-894c-23a1e9541956",
+        "name": "Conference A",
+        "created_at": "2023-08-12T23:20:40.198Z",
+        "updated_at": "2023-08-13T07:48:52.200Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "06cbe1b9-8501-4af1-9ec7-73f43cd89b97",
+        "name": "Workshop B",
+        "created_at": "2023-08-13T13:25:24.067Z",
+        "updated_at": "2023-08-13T07:03:23.697Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "346117ae-a33a-4cdb-8cc2-2ed0cfed6246",
+        "name": "Seminar C",
+        "created_at": "2023-08-13T15:31:56.180Z",
+        "updated_at": "2023-08-13T15:21:48.276Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "5aa455f5-5bf4-4e37-9713-fc90847e64f9",
+        "name": "Exhibition D",
+        "created_at": "2023-08-13T15:58:52.186Z",
+        "updated_at": "2023-08-13T09:48:28.461Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "4f915813-66e8-4100-b76e-4d1b1a869ed9",
+        "name": "Webinar E",
+        "created_at": "2023-08-12T22:40:39.872Z",
+        "updated_at": "2023-08-12T22:31:38.934Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "venue": [
+      {
+        "id": "85e0e1ec-729e-4e11-8578-aefbdc668c6f",
+        "name": "Venue X",
+        "created_at": "2023-08-13T02:39:24.868Z",
+        "updated_at": "2023-08-13T18:35:24.452Z",
+        "event_id": "fe4baf20-ebec-4911-894c-23a1e9541956"
+      },
+      {
+        "id": "5f7be622-b185-450a-b25d-b5fbaddf1002",
+        "name": "Venue Y",
+        "created_at": "2023-08-13T19:01:27.238Z",
+        "updated_at": "2023-08-13T05:39:27.353Z",
+        "event_id": "fe4baf20-ebec-4911-894c-23a1e9541956"
+      },
+      {
+        "id": "e176a68e-43d9-4949-828d-b573b3efb976",
+        "name": "Venue Z",
+        "created_at": "2023-08-13T04:30:26.275Z",
+        "updated_at": "2023-08-13T09:56:17.743Z",
+        "event_id": "4f915813-66e8-4100-b76e-4d1b1a869ed9"
+      },
+      {
+        "id": "30b0642d-a8cc-40cb-b0d4-53b390f799ed",
+        "name": "Venue P",
+        "created_at": "2023-08-13T09:14:53.900Z",
+        "updated_at": "2023-08-13T13:56:14.650Z",
+        "event_id": "4f915813-66e8-4100-b76e-4d1b1a869ed9"
+      },
+      {
+        "id": "ed7c4c1b-6543-4073-9827-0eb23ff0b159",
+        "name": "Venue Q",
+        "created_at": "2023-08-13T07:24:10.873Z",
+        "updated_at": "2023-08-13T14:54:15.621Z",
+        "event_id": "fe4baf20-ebec-4911-894c-23a1e9541956"
+      }
+    ],
+    "session": [
+      {
+        "id": "8cbacd82-4622-4203-8a42-1e75a2f4c206",
+        "name": "Session 1",
+        "created_at": "2023-08-13T08:38:48.059Z",
+        "updated_at": "2023-08-12T23:55:56.170Z",
+        "event_id": "4f915813-66e8-4100-b76e-4d1b1a869ed9"
+      },
+      {
+        "id": "2a1ea40b-a1a7-4837-bb37-694556481cae",
+        "name": "Session 2",
+        "created_at": "2023-08-13T15:05:54.757Z",
+        "updated_at": "2023-08-13T12:48:14.274Z",
+        "event_id": "06cbe1b9-8501-4af1-9ec7-73f43cd89b97"
+      },
+      {
+        "id": "70094d26-d3b0-4dbc-884c-efa54ac7f890",
+        "name": "Session 3",
+        "created_at": "2023-08-13T14:51:59.013Z",
+        "updated_at": "2023-08-13T09:22:51.628Z",
+        "event_id": "5aa455f5-5bf4-4e37-9713-fc90847e64f9"
+      },
+      {
+        "id": "6c790728-27b2-4c62-9be1-521c3d03200c",
+        "name": "Session 4",
+        "created_at": "2023-08-13T21:47:58.933Z",
+        "updated_at": "2023-08-13T18:09:59.699Z",
+        "event_id": "5aa455f5-5bf4-4e37-9713-fc90847e64f9"
+      },
+      {
+        "id": "1b71b842-0b17-4353-9dbb-ca8d935c2909",
+        "name": "Session 5",
+        "created_at": "2023-08-13T17:19:01.719Z",
+        "updated_at": "2023-08-13T21:02:53.051Z",
+        "event_id": "5aa455f5-5bf4-4e37-9713-fc90847e64f9"
+      }
+    ],
+    "registration": [
+      {
+        "id": "73240f66-92aa-4247-bf73-a4640434c954",
+        "attendee_name": "John Doe",
+        "created_at": "2023-08-12T23:48:06.755Z",
+        "updated_at": "2023-08-13T16:28:01.277Z",
+        "event_id": "06cbe1b9-8501-4af1-9ec7-73f43cd89b97"
+      },
+      {
+        "id": "40a01b5e-e7a6-4d66-80ea-cc348471459f",
+        "attendee_name": "Jane Smith",
+        "created_at": "2023-08-13T05:54:32.930Z",
+        "updated_at": "2023-08-13T15:43:59.178Z",
+        "event_id": "06cbe1b9-8501-4af1-9ec7-73f43cd89b97"
+      },
+      {
+        "id": "abe43e61-a94d-43ae-99dd-2656ff358fb4",
+        "attendee_name": "Michael Brown",
+        "created_at": "2023-08-13T13:36:08.509Z",
+        "updated_at": "2023-08-13T21:03:47.911Z",
+        "event_id": "fe4baf20-ebec-4911-894c-23a1e9541956"
+      },
+      {
+        "id": "7784ecd7-9bc9-4afb-9fee-2e04628eb286",
+        "attendee_name": "Sarah Jones",
+        "created_at": "2023-08-12T22:29:22.809Z",
+        "updated_at": "2023-08-13T14:13:22.226Z",
+        "event_id": "346117ae-a33a-4cdb-8cc2-2ed0cfed6246"
+      },
+      {
+        "id": "fdd07108-6d40-4d1a-9ab4-e67a8e2794d5",
+        "attendee_name": "David Wilson",
+        "created_at": "2023-08-13T06:06:10.814Z",
+        "updated_at": "2023-08-13T02:13:24.054Z",
+        "event_id": "06cbe1b9-8501-4af1-9ec7-73f43cd89b97"
+      }
+    ],
+    "promotion": [
+      {
+        "id": "0829a45d-e03a-4850-bc5a-447aaf543229",
+        "description": "Get 20% off on all products.",
+        "created_at": "2023-08-13T13:11:14.667Z",
+        "updated_at": "2023-08-13T20:35:47.879Z",
+        "event_id": "4f915813-66e8-4100-b76e-4d1b1a869ed9"
+      },
+      {
+        "id": "6f681a28-78b8-459e-98da-6d1236130196",
+        "description": "Limited time offer: Buy one, get one free.",
+        "created_at": "2023-08-13T14:15:39.754Z",
+        "updated_at": "2023-08-13T07:03:48.805Z",
+        "event_id": "fe4baf20-ebec-4911-894c-23a1e9541956"
+      },
+      {
+        "id": "97f723d0-cdc0-4117-8fcd-68b6a45d61cf",
+        "description": "Join now and receive a free gift.",
+        "created_at": "2023-08-13T17:21:54.792Z",
+        "updated_at": "2023-08-13T15:58:14.766Z",
+        "event_id": "fe4baf20-ebec-4911-894c-23a1e9541956"
+      },
+      {
+        "id": "a5d47b07-3fb1-4e2a-957b-6ebd95f84311",
+        "description": "Exclusive discount for new customers.",
+        "created_at": "2023-08-13T08:06:25.327Z",
+        "updated_at": "2023-08-13T07:35:37.551Z",
+        "event_id": "fe4baf20-ebec-4911-894c-23a1e9541956"
+      },
+      {
+        "id": "7578089e-e923-485c-a940-7cac2498bcbf",
+        "description": "Refer a friend and get rewarded.",
+        "created_at": "2023-08-13T00:27:09.170Z",
+        "updated_at": "2023-08-13T16:57:15.560Z",
+        "event_id": "06cbe1b9-8501-4af1-9ec7-73f43cd89b97"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "202ab7ca-5dd4-4d32-a244-996c135e18f5",
+        "analysis": "Analysis A",
+        "created_at": "2023-08-13T18:24:44.774Z",
+        "updated_at": "2023-08-13T18:35:43.288Z",
+        "event_id": "5aa455f5-5bf4-4e37-9713-fc90847e64f9"
+      },
+      {
+        "id": "3f0d75f5-b4dd-4648-867c-dab9b102a5f6",
+        "analysis": "Analysis B",
+        "created_at": "2023-08-13T15:34:41.552Z",
+        "updated_at": "2023-08-13T09:17:13.059Z",
+        "event_id": "4f915813-66e8-4100-b76e-4d1b1a869ed9"
+      },
+      {
+        "id": "2f1a3ae0-88d3-4e09-bd01-28a8b9fbf363",
+        "analysis": "Analysis C",
+        "created_at": "2023-08-13T14:05:18.681Z",
+        "updated_at": "2023-08-13T19:56:54.255Z",
+        "event_id": "fe4baf20-ebec-4911-894c-23a1e9541956"
+      },
+      {
+        "id": "2c855cee-a755-40df-b197-46d9f8465a31",
+        "analysis": "Analysis D",
+        "created_at": "2023-08-13T21:21:21.277Z",
+        "updated_at": "2023-08-13T05:23:06.611Z",
+        "event_id": "fe4baf20-ebec-4911-894c-23a1e9541956"
+      },
+      {
+        "id": "1a1e4675-56b3-473b-82a2-55bc32c396e3",
+        "analysis": "Analysis E",
+        "created_at": "2023-08-13T01:20:01.790Z",
+        "updated_at": "2023-08-13T08:16:49.706Z",
+        "event_id": "5aa455f5-5bf4-4e37-9713-fc90847e64f9"
+      }
+    ],
+    "check_in": [
+      {
+        "id": "93e17c74-baea-45d2-a785-78e419322587",
+        "checked_in": false,
+        "created_at": "2023-08-13T16:20:47.920Z",
+        "updated_at": "2023-08-13T19:55:36.190Z",
+        "registration_id": "abe43e61-a94d-43ae-99dd-2656ff358fb4"
+      },
+      {
+        "id": "2daa3ff7-04e6-4103-a79d-997652603c95",
+        "checked_in": false,
+        "created_at": "2023-08-13T08:39:30.486Z",
+        "updated_at": "2023-08-13T19:41:48.870Z",
+        "registration_id": "fdd07108-6d40-4d1a-9ab4-e67a8e2794d5"
+      },
+      {
+        "id": "a70ea529-947c-4248-bbb7-8da049da863c",
+        "checked_in": true,
+        "created_at": "2023-08-13T16:39:34.633Z",
+        "updated_at": "2023-08-13T01:23:05.169Z",
+        "registration_id": "7784ecd7-9bc9-4afb-9fee-2e04628eb286"
+      },
+      {
+        "id": "cdd6c109-2bb5-44e7-918a-db38a5be22a1",
+        "checked_in": false,
+        "created_at": "2023-08-13T00:59:57.559Z",
+        "updated_at": "2023-08-13T15:12:56.281Z",
+        "registration_id": "7784ecd7-9bc9-4afb-9fee-2e04628eb286"
+      },
+      {
+        "id": "8e744b36-08b4-42fd-9231-182b44e16c4b",
+        "checked_in": false,
+        "created_at": "2023-08-13T14:43:17.291Z",
+        "updated_at": "2023-08-13T01:56:56.859Z",
+        "registration_id": "fdd07108-6d40-4d1a-9ab4-e67a8e2794d5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "84563c6d-70d8-4860-8841-5ef88ff69017",
+        "email": "Noel99@gmail.com",
+        "firstName": "Gunnar",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/119.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "24212d39-4fac-44e2-8e8b-a2794721b2ad",
+        "email": "Chanelle31@yahoo.com",
+        "firstName": "Keira",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38413182",
+        "tenantId": null
+      },
+      {
+        "reference": "e3650955-45bd-48ed-b68f-ae132d14fe91",
+        "email": "Catherine_Spencer15@hotmail.com",
+        "firstName": "Augustus",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/222.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "71d9af9f-bebc-4f28-b1f8-3102f29b9315",
+        "email": "Sharon.Von@hotmail.com",
+        "firstName": "Loraine",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23882786",
+        "tenantId": null
+      },
+      {
+        "reference": "c43d6497-5e10-49a2-ab97-fb8eedd2fc5e",
+        "email": "Maryjane_Steuber@yahoo.com",
+        "firstName": "Merl",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49831478",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "event": [
+      {
+        "id": "f404200d-9350-4c19-a66c-857de0d841fd",
+        "name": "Conference A",
+        "created_at": "2023-08-13T18:50:53.133Z",
+        "updated_at": "2023-08-13T16:32:48.299Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "c78cd8bc-6cc3-412e-9178-d68f283e4174",
+        "name": "Workshop B",
+        "created_at": "2023-08-13T14:27:36.585Z",
+        "updated_at": "2023-08-13T04:32:15.332Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "26fb76eb-3796-4771-91a8-87f4faa6d86c",
+        "name": "Seminar C",
+        "created_at": "2023-08-13T15:19:19.876Z",
+        "updated_at": "2023-08-13T02:42:30.649Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "3dbe3b67-6d43-4bbe-bb0d-b8ce0f272b29",
+        "name": "Exhibition D",
+        "created_at": "2023-08-13T00:26:57.740Z",
+        "updated_at": "2023-08-13T07:57:24.279Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "b2678573-fdb0-4e52-a44c-3b62a72aaad4",
+        "name": "Webinar E",
+        "created_at": "2023-08-13T07:03:49.591Z",
+        "updated_at": "2023-08-13T11:00:24.149Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "venue": [
+      {
+        "id": "07b5cfcd-1325-4658-96ed-7b0394e575ad",
+        "name": "Venue X",
+        "created_at": "2023-08-13T07:23:27.543Z",
+        "updated_at": "2023-08-13T03:45:13.483Z",
+        "event_id": "26fb76eb-3796-4771-91a8-87f4faa6d86c"
+      },
+      {
+        "id": "2bf2ad9f-dc39-43f3-a1a6-db660f95f59d",
+        "name": "Venue Y",
+        "created_at": "2023-08-13T13:21:45.436Z",
+        "updated_at": "2023-08-13T07:03:16.285Z",
+        "event_id": "b2678573-fdb0-4e52-a44c-3b62a72aaad4"
+      },
+      {
+        "id": "a130b27f-f859-4608-9a4a-f44e6e7cc12b",
+        "name": "Venue Z",
+        "created_at": "2023-08-13T12:18:31.430Z",
+        "updated_at": "2023-08-13T16:36:28.765Z",
+        "event_id": "b2678573-fdb0-4e52-a44c-3b62a72aaad4"
+      },
+      {
+        "id": "fdd8aa5c-7d8d-43b1-85ec-30c3ef43937f",
+        "name": "Venue P",
+        "created_at": "2023-08-13T15:41:05.290Z",
+        "updated_at": "2023-08-13T12:06:14.351Z",
+        "event_id": "3dbe3b67-6d43-4bbe-bb0d-b8ce0f272b29"
+      },
+      {
+        "id": "aa571628-0be7-473d-8fa6-7e592b08a95f",
+        "name": "Venue Q",
+        "created_at": "2023-08-13T17:32:40.772Z",
+        "updated_at": "2023-08-13T08:19:28.270Z",
+        "event_id": "b2678573-fdb0-4e52-a44c-3b62a72aaad4"
+      }
+    ],
+    "session": [
+      {
+        "id": "45c87f4c-f3f7-44c7-a1ba-aeedd131a6da",
+        "name": "Session 1",
+        "created_at": "2023-08-13T13:06:52.251Z",
+        "updated_at": "2023-08-12T23:34:11.582Z",
+        "event_id": "f404200d-9350-4c19-a66c-857de0d841fd"
+      },
+      {
+        "id": "58cf4eaf-315b-4495-b83b-93191335040a",
+        "name": "Session 2",
+        "created_at": "2023-08-13T08:37:50.945Z",
+        "updated_at": "2023-08-13T15:22:56.448Z",
+        "event_id": "c78cd8bc-6cc3-412e-9178-d68f283e4174"
+      },
+      {
+        "id": "b336a607-4378-486a-b2e3-17d7c85189bd",
+        "name": "Session 3",
+        "created_at": "2023-08-13T12:41:06.064Z",
+        "updated_at": "2023-08-13T11:21:17.745Z",
+        "event_id": "b2678573-fdb0-4e52-a44c-3b62a72aaad4"
+      },
+      {
+        "id": "37289f23-a286-410f-aae2-39beabcc9f27",
+        "name": "Session 4",
+        "created_at": "2023-08-13T17:10:58.976Z",
+        "updated_at": "2023-08-13T01:38:31.071Z",
+        "event_id": "c78cd8bc-6cc3-412e-9178-d68f283e4174"
+      },
+      {
+        "id": "2d3ba604-4009-406f-99ca-4ed0e83a0b08",
+        "name": "Session 5",
+        "created_at": "2023-08-13T07:49:30.431Z",
+        "updated_at": "2023-08-13T12:28:52.345Z",
+        "event_id": "3dbe3b67-6d43-4bbe-bb0d-b8ce0f272b29"
+      }
+    ],
+    "registration": [
+      {
+        "id": "fe9f2b92-fc73-47fd-be1d-40889f745f8b",
+        "attendee_name": "John Doe",
+        "created_at": "2023-08-13T15:44:13.874Z",
+        "updated_at": "2023-08-13T19:59:37.286Z",
+        "event_id": "c78cd8bc-6cc3-412e-9178-d68f283e4174"
+      },
+      {
+        "id": "a9267dc9-18ca-4f0a-86fa-4bda5651cacc",
+        "attendee_name": "Jane Smith",
+        "created_at": "2023-08-13T16:53:00.795Z",
+        "updated_at": "2023-08-13T06:11:59.507Z",
+        "event_id": "c78cd8bc-6cc3-412e-9178-d68f283e4174"
+      },
+      {
+        "id": "44e4000e-c325-410a-bc7d-e741c02cd754",
+        "attendee_name": "Michael Brown",
+        "created_at": "2023-08-13T01:39:15.778Z",
+        "updated_at": "2023-08-13T02:19:30.167Z",
+        "event_id": "b2678573-fdb0-4e52-a44c-3b62a72aaad4"
+      },
+      {
+        "id": "15354398-92ec-407b-8a44-c76cecdc3596",
+        "attendee_name": "Sarah Jones",
+        "created_at": "2023-08-13T19:08:08.052Z",
+        "updated_at": "2023-08-13T10:53:20.850Z",
+        "event_id": "3dbe3b67-6d43-4bbe-bb0d-b8ce0f272b29"
+      },
+      {
+        "id": "cda8a3dc-5fd5-43f7-88af-e7a82e518c01",
+        "attendee_name": "David Wilson",
+        "created_at": "2023-08-13T04:02:50.690Z",
+        "updated_at": "2023-08-13T09:45:08.217Z",
+        "event_id": "c78cd8bc-6cc3-412e-9178-d68f283e4174"
+      }
+    ],
+    "promotion": [
+      {
+        "id": "27eaec74-3300-42b6-8e47-f383d0454f19",
+        "description": "Get 20% off on all products.",
+        "created_at": "2023-08-13T17:04:43.965Z",
+        "updated_at": "2023-08-13T07:26:54.186Z",
+        "event_id": "c78cd8bc-6cc3-412e-9178-d68f283e4174"
+      },
+      {
+        "id": "a4fc345b-f496-403b-8d3f-f6bd2c47993e",
+        "description": "Limited time offer: Buy one, get one free.",
+        "created_at": "2023-08-13T19:28:20.276Z",
+        "updated_at": "2023-08-13T14:46:45.868Z",
+        "event_id": "c78cd8bc-6cc3-412e-9178-d68f283e4174"
+      },
+      {
+        "id": "7bc616d7-ce8c-48df-b82c-d6cbbc9bffbd",
+        "description": "Join now and receive a free gift.",
+        "created_at": "2023-08-13T13:46:27.377Z",
+        "updated_at": "2023-08-13T08:28:50.370Z",
+        "event_id": "b2678573-fdb0-4e52-a44c-3b62a72aaad4"
+      },
+      {
+        "id": "51d34c15-b876-4e39-ac46-cafeda50d45a",
+        "description": "Exclusive discount for new customers.",
+        "created_at": "2023-08-13T12:14:13.619Z",
+        "updated_at": "2023-08-13T21:42:47.333Z",
+        "event_id": "26fb76eb-3796-4771-91a8-87f4faa6d86c"
+      },
+      {
+        "id": "879bf08d-ab3f-4432-b974-2a3e5f7fd53a",
+        "description": "Refer a friend and get rewarded.",
+        "created_at": "2023-08-13T20:19:46.804Z",
+        "updated_at": "2023-08-13T07:36:40.629Z",
+        "event_id": "f404200d-9350-4c19-a66c-857de0d841fd"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "3dc9ba7d-5a42-410b-8ed8-425b5bee40c5",
+        "analysis": "Analysis A",
+        "created_at": "2023-08-13T17:41:12.973Z",
+        "updated_at": "2023-08-13T00:50:17.123Z",
+        "event_id": "f404200d-9350-4c19-a66c-857de0d841fd"
+      },
+      {
+        "id": "7ca69a4d-9cb0-411b-889a-b6350a0ceb49",
+        "analysis": "Analysis B",
+        "created_at": "2023-08-13T06:27:20.143Z",
+        "updated_at": "2023-08-13T21:33:01.283Z",
+        "event_id": "f404200d-9350-4c19-a66c-857de0d841fd"
+      },
+      {
+        "id": "f0b5ef85-3f6b-4bb4-b662-eb67901a31be",
+        "analysis": "Analysis C",
+        "created_at": "2023-08-13T02:46:36.644Z",
+        "updated_at": "2023-08-13T15:26:35.385Z",
+        "event_id": "b2678573-fdb0-4e52-a44c-3b62a72aaad4"
+      },
+      {
+        "id": "ba43ad21-72b9-4a2a-81a6-928f2df228ea",
+        "analysis": "Analysis D",
+        "created_at": "2023-08-13T13:37:27.444Z",
+        "updated_at": "2023-08-12T22:37:41.161Z",
+        "event_id": "c78cd8bc-6cc3-412e-9178-d68f283e4174"
+      },
+      {
+        "id": "61bf01a3-7f5f-486d-8fd0-3820e3e59eb4",
+        "analysis": "Analysis E",
+        "created_at": "2023-08-13T02:25:21.256Z",
+        "updated_at": "2023-08-13T06:38:11.659Z",
+        "event_id": "26fb76eb-3796-4771-91a8-87f4faa6d86c"
+      }
+    ],
+    "check_in": [
+      {
+        "id": "14781c73-6a3a-4a94-8dfa-7a946f26e3ba",
+        "checked_in": false,
+        "created_at": "2023-08-13T11:40:53.367Z",
+        "updated_at": "2023-08-13T04:54:05.641Z",
+        "registration_id": "cda8a3dc-5fd5-43f7-88af-e7a82e518c01"
+      },
+      {
+        "id": "c9f2b85c-b45c-468e-9003-a4e4a993e446",
+        "checked_in": false,
+        "created_at": "2023-08-13T18:00:11.716Z",
+        "updated_at": "2023-08-13T14:23:45.706Z",
+        "registration_id": "a9267dc9-18ca-4f0a-86fa-4bda5651cacc"
+      },
+      {
+        "id": "4db186b2-9080-4e9f-b2fe-5c82ab84a395",
+        "checked_in": false,
+        "created_at": "2023-08-13T07:58:13.037Z",
+        "updated_at": "2023-08-13T15:28:08.587Z",
+        "registration_id": "cda8a3dc-5fd5-43f7-88af-e7a82e518c01"
+      },
+      {
+        "id": "44644f24-78f6-4a68-b48d-ce1a8aee467b",
+        "checked_in": true,
+        "created_at": "2023-08-13T08:47:41.613Z",
+        "updated_at": "2023-08-13T10:23:46.739Z",
+        "registration_id": "fe9f2b92-fc73-47fd-be1d-40889f745f8b"
+      },
+      {
+        "id": "dc5a2e38-aecc-473a-a2f1-def50b7f2029",
+        "checked_in": false,
+        "created_at": "2023-08-13T05:47:37.386Z",
+        "updated_at": "2023-08-12T22:40:24.596Z",
+        "registration_id": "44e4000e-c325-410a-bc7d-e741c02cd754"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6525edcb-0863-4c77-967f-cc628c7ded68",
+        "email": "Kayli.Hahn75@hotmail.com",
+        "firstName": "Carli",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20773936",
+        "tenantId": null
+      },
+      {
+        "reference": "8bea7cad-4a08-4d5b-b22f-6617821835dd",
+        "email": "Pete_Osinski@hotmail.com",
+        "firstName": "Jacinto",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1636279",
+        "tenantId": null
+      },
+      {
+        "reference": "23e42ffe-3256-4c97-9f71-a36f6d8014fc",
+        "email": "Jacklyn.Dietrich48@hotmail.com",
+        "firstName": "Buster",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/698.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d89eb4b-161a-482a-9f83-872964f99b2a",
+        "email": "Magdalen45@yahoo.com",
+        "firstName": "Nicklaus",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22173377",
+        "tenantId": null
+      },
+      {
+        "reference": "b02d2db9-275b-489b-89d0-e60683529dbc",
+        "email": "Lon_Collins@gmail.com",
+        "firstName": "Sylvan",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55778851",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "event": [
+      {
+        "id": "65ba6de8-ffc5-4be5-83fe-3cb2ac249cfb",
+        "name": "Conference A",
+        "created_at": "2023-08-13T07:07:46.636Z",
+        "updated_at": "2023-08-13T18:17:20.857Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "407fa82d-6374-4b10-9897-7c83c30e2ce5",
+        "name": "Workshop B",
+        "created_at": "2023-08-13T02:15:13.909Z",
+        "updated_at": "2023-08-13T18:12:03.726Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "5af08cd8-bbde-40d5-8618-8de9b81b5855",
+        "name": "Seminar C",
+        "created_at": "2023-08-13T19:29:54.535Z",
+        "updated_at": "2023-08-13T19:11:58.331Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "7c62aa4b-9047-4caf-b119-e5432605d6b3",
+        "name": "Exhibition D",
+        "created_at": "2023-08-13T09:08:36.551Z",
+        "updated_at": "2023-08-12T23:16:46.141Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "5e014c3d-6548-4caf-91bd-a1c2ab5c9c8f",
+        "name": "Webinar E",
+        "created_at": "2023-08-13T03:48:55.706Z",
+        "updated_at": "2023-08-12T22:35:15.830Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "venue": [
+      {
+        "id": "71d5d4c8-328c-4097-bd96-95c17fa6e8d6",
+        "name": "Venue X",
+        "created_at": "2023-08-13T01:40:12.912Z",
+        "updated_at": "2023-08-13T11:38:12.760Z",
+        "event_id": "65ba6de8-ffc5-4be5-83fe-3cb2ac249cfb"
+      },
+      {
+        "id": "2cc462e6-bcb1-49ed-bdd1-e4bcf4a6ca30",
+        "name": "Venue Y",
+        "created_at": "2023-08-12T23:18:33.699Z",
+        "updated_at": "2023-08-13T06:10:53.691Z",
+        "event_id": "5e014c3d-6548-4caf-91bd-a1c2ab5c9c8f"
+      },
+      {
+        "id": "0d1837c9-5947-4bb5-9058-7a5d1aacc60b",
+        "name": "Venue Z",
+        "created_at": "2023-08-13T17:59:06.972Z",
+        "updated_at": "2023-08-12T22:22:51.221Z",
+        "event_id": "5af08cd8-bbde-40d5-8618-8de9b81b5855"
+      },
+      {
+        "id": "e2220b3c-38a2-432c-bffe-17694ec58483",
+        "name": "Venue P",
+        "created_at": "2023-08-13T05:02:14.358Z",
+        "updated_at": "2023-08-13T04:41:07.677Z",
+        "event_id": "65ba6de8-ffc5-4be5-83fe-3cb2ac249cfb"
+      },
+      {
+        "id": "5e77c196-d134-4b1e-8ee4-46740b54836f",
+        "name": "Venue Q",
+        "created_at": "2023-08-13T22:15:54.129Z",
+        "updated_at": "2023-08-13T04:28:03.134Z",
+        "event_id": "5af08cd8-bbde-40d5-8618-8de9b81b5855"
+      }
+    ],
+    "session": [
+      {
+        "id": "82b5a1fe-8e92-4f9f-9cf5-f2995f1e9501",
+        "name": "Session 1",
+        "created_at": "2023-08-13T14:01:58.021Z",
+        "updated_at": "2023-08-13T21:06:35.471Z",
+        "event_id": "407fa82d-6374-4b10-9897-7c83c30e2ce5"
+      },
+      {
+        "id": "b3c78e4e-701d-45d1-b763-b85ed9e2bc2d",
+        "name": "Session 2",
+        "created_at": "2023-08-13T07:54:24.752Z",
+        "updated_at": "2023-08-13T01:01:19.969Z",
+        "event_id": "65ba6de8-ffc5-4be5-83fe-3cb2ac249cfb"
+      },
+      {
+        "id": "c7e48035-179e-411d-abd6-1794def32adc",
+        "name": "Session 3",
+        "created_at": "2023-08-13T09:18:15.089Z",
+        "updated_at": "2023-08-13T05:24:02.625Z",
+        "event_id": "5af08cd8-bbde-40d5-8618-8de9b81b5855"
+      },
+      {
+        "id": "e34d5ec6-069b-4254-82c8-4cfc81372656",
+        "name": "Session 4",
+        "created_at": "2023-08-13T12:50:57.806Z",
+        "updated_at": "2023-08-13T02:52:19.811Z",
+        "event_id": "5af08cd8-bbde-40d5-8618-8de9b81b5855"
+      },
+      {
+        "id": "10a98f25-82a9-41cb-99b8-d9a24c1d0dab",
+        "name": "Session 5",
+        "created_at": "2023-08-13T16:57:27.741Z",
+        "updated_at": "2023-08-13T04:18:43.490Z",
+        "event_id": "407fa82d-6374-4b10-9897-7c83c30e2ce5"
+      }
+    ],
+    "registration": [
+      {
+        "id": "34a2f072-6c0e-4110-b2c8-283426825476",
+        "attendee_name": "John Doe",
+        "created_at": "2023-08-13T03:00:01.693Z",
+        "updated_at": "2023-08-13T03:25:30.766Z",
+        "event_id": "7c62aa4b-9047-4caf-b119-e5432605d6b3"
+      },
+      {
+        "id": "e8c62572-3769-4a9c-9759-2118579f26fc",
+        "attendee_name": "Jane Smith",
+        "created_at": "2023-08-13T22:10:34.978Z",
+        "updated_at": "2023-08-13T03:52:15.802Z",
+        "event_id": "7c62aa4b-9047-4caf-b119-e5432605d6b3"
+      },
+      {
+        "id": "1dee8626-aee7-4875-8092-34dd7cf5f5df",
+        "attendee_name": "Michael Brown",
+        "created_at": "2023-08-13T06:48:23.611Z",
+        "updated_at": "2023-08-12T23:56:07.591Z",
+        "event_id": "5e014c3d-6548-4caf-91bd-a1c2ab5c9c8f"
+      },
+      {
+        "id": "1f93fb19-d016-427f-95f6-bfefc12366fa",
+        "attendee_name": "Sarah Jones",
+        "created_at": "2023-08-13T19:46:59.614Z",
+        "updated_at": "2023-08-13T03:07:12.371Z",
+        "event_id": "407fa82d-6374-4b10-9897-7c83c30e2ce5"
+      },
+      {
+        "id": "e7d6d792-501f-4f6f-9347-9649f07bcd3c",
+        "attendee_name": "David Wilson",
+        "created_at": "2023-08-13T01:15:32.195Z",
+        "updated_at": "2023-08-13T15:50:06.686Z",
+        "event_id": "65ba6de8-ffc5-4be5-83fe-3cb2ac249cfb"
+      }
+    ],
+    "promotion": [
+      {
+        "id": "0d8cc3c3-da28-4dc3-bc02-8b8afe6b45b7",
+        "description": "Get 20% off on all products.",
+        "created_at": "2023-08-13T01:48:27.618Z",
+        "updated_at": "2023-08-13T11:19:39.655Z",
+        "event_id": "7c62aa4b-9047-4caf-b119-e5432605d6b3"
+      },
+      {
+        "id": "ef19ded9-9413-4c3f-b086-8a1216cadee2",
+        "description": "Limited time offer: Buy one, get one free.",
+        "created_at": "2023-08-13T02:12:30.350Z",
+        "updated_at": "2023-08-13T08:01:29.317Z",
+        "event_id": "7c62aa4b-9047-4caf-b119-e5432605d6b3"
+      },
+      {
+        "id": "87545129-26a3-42ce-b1aa-2488698bf565",
+        "description": "Join now and receive a free gift.",
+        "created_at": "2023-08-13T06:11:47.840Z",
+        "updated_at": "2023-08-13T12:37:25.324Z",
+        "event_id": "5af08cd8-bbde-40d5-8618-8de9b81b5855"
+      },
+      {
+        "id": "6ca5aefd-6542-496f-9697-96a2ce6786ed",
+        "description": "Exclusive discount for new customers.",
+        "created_at": "2023-08-13T07:21:47.851Z",
+        "updated_at": "2023-08-13T10:53:38.588Z",
+        "event_id": "5af08cd8-bbde-40d5-8618-8de9b81b5855"
+      },
+      {
+        "id": "c0869a97-aae9-454b-a52c-cff01df91b48",
+        "description": "Refer a friend and get rewarded.",
+        "created_at": "2023-08-13T15:18:38.732Z",
+        "updated_at": "2023-08-13T21:58:00.831Z",
+        "event_id": "407fa82d-6374-4b10-9897-7c83c30e2ce5"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "68e3f919-2618-4480-aa6d-5cbec76d2efe",
+        "analysis": "Sales performance analysis",
+        "created_at": "2023-08-13T07:10:21.689Z",
+        "updated_at": "2023-08-13T19:15:21.859Z",
+        "event_id": "407fa82d-6374-4b10-9897-7c83c30e2ce5"
+      },
+      {
+        "id": "a667c4b9-f61e-4b65-8172-a79a656c20d2",
+        "analysis": "Customer behavior analysis",
+        "created_at": "2023-08-13T04:13:23.541Z",
+        "updated_at": "2023-08-13T01:21:12.543Z",
+        "event_id": "407fa82d-6374-4b10-9897-7c83c30e2ce5"
+      },
+      {
+        "id": "69880b81-9b97-4976-9cb8-361b9bbde535",
+        "analysis": "Market trend analysis",
+        "created_at": "2023-08-13T11:20:13.656Z",
+        "updated_at": "2023-08-13T00:59:12.530Z",
+        "event_id": "5af08cd8-bbde-40d5-8618-8de9b81b5855"
+      },
+      {
+        "id": "fc911f7c-90a4-46fe-b945-4fc942233f66",
+        "analysis": "Product quality analysis",
+        "created_at": "2023-08-13T11:02:03.662Z",
+        "updated_at": "2023-08-13T01:34:27.635Z",
+        "event_id": "5af08cd8-bbde-40d5-8618-8de9b81b5855"
+      },
+      {
+        "id": "347c55e9-503f-4636-9156-a13293412b4e",
+        "analysis": "Financial data analysis",
+        "created_at": "2023-08-13T06:40:44.743Z",
+        "updated_at": "2023-08-13T14:07:56.111Z",
+        "event_id": "407fa82d-6374-4b10-9897-7c83c30e2ce5"
+      }
+    ],
+    "check_in": [
+      {
+        "id": "31846b79-1df5-4259-be5b-3425241a5bd2",
+        "checked_in": false,
+        "created_at": "2023-08-13T12:34:05.032Z",
+        "updated_at": "2023-08-13T20:40:10.410Z",
+        "registration_id": "1f93fb19-d016-427f-95f6-bfefc12366fa"
+      },
+      {
+        "id": "7db08ae8-dab7-4ba0-b116-8db7ebcc230c",
+        "checked_in": true,
+        "created_at": "2023-08-13T11:10:41.671Z",
+        "updated_at": "2023-08-13T08:49:10.581Z",
+        "registration_id": "34a2f072-6c0e-4110-b2c8-283426825476"
+      },
+      {
+        "id": "6a157d28-6fb4-44ae-aabe-8849b7e5ba90",
+        "checked_in": true,
+        "created_at": "2023-08-13T20:10:17.165Z",
+        "updated_at": "2023-08-13T04:22:16.032Z",
+        "registration_id": "34a2f072-6c0e-4110-b2c8-283426825476"
+      },
+      {
+        "id": "656772b2-be0f-47db-ae02-b9ce8a83676a",
+        "checked_in": true,
+        "created_at": "2023-08-13T11:02:41.328Z",
+        "updated_at": "2023-08-13T09:02:47.266Z",
+        "registration_id": "e7d6d792-501f-4f6f-9347-9649f07bcd3c"
+      },
+      {
+        "id": "0b808aa6-32f9-4003-8279-65be97029c72",
+        "checked_in": true,
+        "created_at": "2023-08-13T09:35:24.328Z",
+        "updated_at": "2023-08-13T13:50:55.802Z",
+        "registration_id": "1dee8626-aee7-4875-8092-34dd7cf5f5df"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "38636ff2-7dee-4a28-871f-ba2b73121b3e",
+        "email": "Wyatt.Muller@gmail.com",
+        "firstName": "Delpha",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73673626",
+        "tenantId": null
+      },
+      {
+        "reference": "df964eea-83af-43ba-8333-7a9b4c6e8c68",
+        "email": "Frieda.Kunde6@yahoo.com",
+        "firstName": "Anibal",
+        "lastName": "Hagenes-Weber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1005.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "58127ed1-aa63-427e-a782-c7a7b75e1dec",
+        "email": "Jarred83@gmail.com",
+        "firstName": "Marcia",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/764.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4fcf6645-7951-44b9-9add-e8fa3233c58e",
+        "email": "Jenifer.Wolff14@gmail.com",
+        "firstName": "Jena",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82995473",
+        "tenantId": null
+      },
+      {
+        "reference": "0234ca4f-35cf-4369-b7b7-44d383d9df41",
+        "email": "Lysanne.Yundt19@yahoo.com",
+        "firstName": "Lenore",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/676.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "event": [
+      {
+        "id": "e93bd20d-30cd-4eeb-933c-f4e403102e8a",
+        "name": "Conference A",
+        "created_at": "2023-08-13T01:33:16.028Z",
+        "updated_at": "2023-08-13T05:38:57.340Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "ce48a278-920a-48ca-b5db-b4c9be26eefc",
+        "name": "Workshop B",
+        "created_at": "2023-08-13T07:37:16.384Z",
+        "updated_at": "2023-08-12T23:52:39.196Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "2e378966-1bf7-4e34-9e24-9d930a9c618e",
+        "name": "Seminar C",
+        "created_at": "2023-08-12T23:34:57.891Z",
+        "updated_at": "2023-08-13T13:22:50.991Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "aad8f2f7-3c50-4105-8ab3-21b11f9e0765",
+        "name": "Exhibition D",
+        "created_at": "2023-08-13T01:01:59.153Z",
+        "updated_at": "2023-08-13T18:34:45.846Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "2cbb6d71-0fdd-4312-b130-8b8b55d356ec",
+        "name": "Webinar E",
+        "created_at": "2023-08-13T10:06:57.622Z",
+        "updated_at": "2023-08-13T01:55:38.903Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "venue": [
+      {
+        "id": "86b33c9b-0530-4562-bcba-3fb2f27ccf6f",
+        "name": "Venue A",
+        "created_at": "2023-08-13T09:08:59.646Z",
+        "updated_at": "2023-08-13T05:26:41.204Z",
+        "event_id": "aad8f2f7-3c50-4105-8ab3-21b11f9e0765"
+      },
+      {
+        "id": "b1bd0a07-e3ae-44bf-9dc2-9eced5fb680b",
+        "name": "Venue B",
+        "created_at": "2023-08-13T04:43:57.379Z",
+        "updated_at": "2023-08-13T13:01:31.998Z",
+        "event_id": "aad8f2f7-3c50-4105-8ab3-21b11f9e0765"
+      },
+      {
+        "id": "ba9e1b56-7045-40f3-9859-0e44ae69b42d",
+        "name": "Venue C",
+        "created_at": "2023-08-13T05:14:40.160Z",
+        "updated_at": "2023-08-13T14:11:21.525Z",
+        "event_id": "e93bd20d-30cd-4eeb-933c-f4e403102e8a"
+      },
+      {
+        "id": "623af726-ffb2-453b-a780-8e1bbc30ef23",
+        "name": "Venue D",
+        "created_at": "2023-08-13T16:57:06.415Z",
+        "updated_at": "2023-08-13T19:34:08.745Z",
+        "event_id": "e93bd20d-30cd-4eeb-933c-f4e403102e8a"
+      },
+      {
+        "id": "a2b237dc-16bb-4a32-b1d7-07dd020ebca7",
+        "name": "Venue E",
+        "created_at": "2023-08-12T22:39:01.594Z",
+        "updated_at": "2023-08-13T12:42:44.289Z",
+        "event_id": "2e378966-1bf7-4e34-9e24-9d930a9c618e"
+      }
+    ],
+    "session": [
+      {
+        "id": "94cbaaf9-73ad-4c3e-92fc-147c35d5786d",
+        "name": "Session A",
+        "created_at": "2023-08-13T07:34:47.284Z",
+        "updated_at": "2023-08-13T18:06:42.845Z",
+        "event_id": "aad8f2f7-3c50-4105-8ab3-21b11f9e0765"
+      },
+      {
+        "id": "bab9d6fa-3054-477e-a496-67d8487b9671",
+        "name": "Session B",
+        "created_at": "2023-08-13T02:58:34.931Z",
+        "updated_at": "2023-08-13T15:19:04.035Z",
+        "event_id": "aad8f2f7-3c50-4105-8ab3-21b11f9e0765"
+      },
+      {
+        "id": "58122c7e-092b-46c7-b39c-2cc55979cc5e",
+        "name": "Session C",
+        "created_at": "2023-08-13T22:14:50.145Z",
+        "updated_at": "2023-08-13T12:58:09.628Z",
+        "event_id": "2e378966-1bf7-4e34-9e24-9d930a9c618e"
+      },
+      {
+        "id": "a85616f6-bed3-4b22-8d64-85b16c416e27",
+        "name": "Session D",
+        "created_at": "2023-08-13T18:38:31.308Z",
+        "updated_at": "2023-08-13T07:42:01.525Z",
+        "event_id": "ce48a278-920a-48ca-b5db-b4c9be26eefc"
+      },
+      {
+        "id": "62e6c67e-a3c7-4709-a686-4035f2f5a5b4",
+        "name": "Session E",
+        "created_at": "2023-08-13T21:18:15.945Z",
+        "updated_at": "2023-08-13T18:56:04.965Z",
+        "event_id": "ce48a278-920a-48ca-b5db-b4c9be26eefc"
+      }
+    ],
+    "registration": [
+      {
+        "id": "f2cf792b-d2b0-4094-9868-2bf6c948d7d8",
+        "attendee_name": "John Doe",
+        "created_at": "2023-08-13T14:20:58.486Z",
+        "updated_at": "2023-08-13T12:18:31.867Z",
+        "event_id": "2cbb6d71-0fdd-4312-b130-8b8b55d356ec"
+      },
+      {
+        "id": "9ae108e9-5b62-4beb-a854-dc6da8937907",
+        "attendee_name": "Jane Smith",
+        "created_at": "2023-08-13T18:02:35.570Z",
+        "updated_at": "2023-08-13T02:58:24.822Z",
+        "event_id": "aad8f2f7-3c50-4105-8ab3-21b11f9e0765"
+      },
+      {
+        "id": "97edc9b3-2b5c-41b2-ab5e-3c25e4364577",
+        "attendee_name": "Michael Brown",
+        "created_at": "2023-08-13T08:45:29.920Z",
+        "updated_at": "2023-08-13T00:17:06.498Z",
+        "event_id": "2e378966-1bf7-4e34-9e24-9d930a9c618e"
+      },
+      {
+        "id": "b5a67993-9917-4b66-86b2-80ae3e51b217",
+        "attendee_name": "Sarah Jones",
+        "created_at": "2023-08-13T20:23:37.672Z",
+        "updated_at": "2023-08-13T11:23:25.421Z",
+        "event_id": "e93bd20d-30cd-4eeb-933c-f4e403102e8a"
+      },
+      {
+        "id": "7eff871b-90ec-4f9c-bb04-3b9cdccda529",
+        "attendee_name": "David Wilson",
+        "created_at": "2023-08-13T05:06:13.470Z",
+        "updated_at": "2023-08-13T15:06:06.208Z",
+        "event_id": "2cbb6d71-0fdd-4312-b130-8b8b55d356ec"
+      }
+    ],
+    "promotion": [
+      {
+        "id": "008efcbb-a96c-44fa-9f85-b1767cb9f01f",
+        "description": "Get 20% off on all products.",
+        "created_at": "2023-08-13T03:30:19.313Z",
+        "updated_at": "2023-08-13T13:12:13.876Z",
+        "event_id": "2cbb6d71-0fdd-4312-b130-8b8b55d356ec"
+      },
+      {
+        "id": "46472072-5338-4eae-ac20-4102fff6eb56",
+        "description": "Limited time offer: Buy one get one free.",
+        "created_at": "2023-08-13T17:23:12.212Z",
+        "updated_at": "2023-08-13T04:54:27.191Z",
+        "event_id": "2cbb6d71-0fdd-4312-b130-8b8b55d356ec"
+      },
+      {
+        "id": "e3361552-bc5e-4c8b-ae6d-5febcdf1550f",
+        "description": "Join now and receive a free gift.",
+        "created_at": "2023-08-13T08:17:58.561Z",
+        "updated_at": "2023-08-13T03:27:51.497Z",
+        "event_id": "ce48a278-920a-48ca-b5db-b4c9be26eefc"
+      },
+      {
+        "id": "71fbdbcf-a1d7-4ac9-863d-223015bb7ed5",
+        "description": "Exclusive discount for new customers.",
+        "created_at": "2023-08-13T18:18:27.034Z",
+        "updated_at": "2023-08-13T13:58:16.911Z",
+        "event_id": "aad8f2f7-3c50-4105-8ab3-21b11f9e0765"
+      },
+      {
+        "id": "5af1c698-60d0-490c-ad06-7940eafe865e",
+        "description": "Refer a friend and get rewarded.",
+        "created_at": "2023-08-13T12:47:25.761Z",
+        "updated_at": "2023-08-13T14:17:51.512Z",
+        "event_id": "2e378966-1bf7-4e34-9e24-9d930a9c618e"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "2f76b474-a4ca-4f55-ae71-460512e8ef36",
+        "analysis": "Analysis A",
+        "created_at": "2023-08-12T23:04:42.448Z",
+        "updated_at": "2023-08-13T19:25:09.967Z",
+        "event_id": "ce48a278-920a-48ca-b5db-b4c9be26eefc"
+      },
+      {
+        "id": "cdbb8618-fd32-4700-994b-e5a08425095b",
+        "analysis": "Analysis B",
+        "created_at": "2023-08-13T12:07:54.470Z",
+        "updated_at": "2023-08-13T18:01:28.889Z",
+        "event_id": "2cbb6d71-0fdd-4312-b130-8b8b55d356ec"
+      },
+      {
+        "id": "c29dcae4-7c13-4247-a012-5f4bf283b3ab",
+        "analysis": "Analysis C",
+        "created_at": "2023-08-13T01:41:18.156Z",
+        "updated_at": "2023-08-13T11:23:28.384Z",
+        "event_id": "e93bd20d-30cd-4eeb-933c-f4e403102e8a"
+      },
+      {
+        "id": "b39fc466-360f-4a65-8024-d2f61084c462",
+        "analysis": "Analysis D",
+        "created_at": "2023-08-13T08:19:20.706Z",
+        "updated_at": "2023-08-13T11:31:05.615Z",
+        "event_id": "2cbb6d71-0fdd-4312-b130-8b8b55d356ec"
+      },
+      {
+        "id": "e9ed2350-309a-4da7-a75c-b4ac3ad6fbfb",
+        "analysis": "Analysis E",
+        "created_at": "2023-08-13T04:16:29.476Z",
+        "updated_at": "2023-08-13T11:54:53.398Z",
+        "event_id": "2cbb6d71-0fdd-4312-b130-8b8b55d356ec"
+      }
+    ],
+    "check_in": [
+      {
+        "id": "2f7478e8-0347-4209-bcd9-b2132515f2ef",
+        "checked_in": false,
+        "created_at": "2023-08-13T04:55:49.388Z",
+        "updated_at": "2023-08-13T20:55:45.811Z",
+        "registration_id": "f2cf792b-d2b0-4094-9868-2bf6c948d7d8"
+      },
+      {
+        "id": "0d48ae46-b32c-490d-98fc-c87e09f0b39e",
+        "checked_in": true,
+        "created_at": "2023-08-13T01:15:25.621Z",
+        "updated_at": "2023-08-13T08:13:15.267Z",
+        "registration_id": "7eff871b-90ec-4f9c-bb04-3b9cdccda529"
+      },
+      {
+        "id": "c15d3c6b-87a5-4cda-8b9d-10d079c26b88",
+        "checked_in": true,
+        "created_at": "2023-08-13T06:43:53.073Z",
+        "updated_at": "2023-08-12T23:29:03.754Z",
+        "registration_id": "9ae108e9-5b62-4beb-a854-dc6da8937907"
+      },
+      {
+        "id": "15c5a98f-3b18-4394-a939-1f11b247a1c5",
+        "checked_in": false,
+        "created_at": "2023-08-13T18:54:46.855Z",
+        "updated_at": "2023-08-13T08:16:41.154Z",
+        "registration_id": "9ae108e9-5b62-4beb-a854-dc6da8937907"
+      },
+      {
+        "id": "6f9ad570-2b1f-4309-bc43-df446a69ffb8",
+        "checked_in": true,
+        "created_at": "2023-08-13T15:11:20.818Z",
+        "updated_at": "2023-08-13T11:24:37.285Z",
+        "registration_id": "7eff871b-90ec-4f9c-bb04-3b9cdccda529"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bbfee019-aa0c-436c-85a3-957fd5faed24",
+        "email": "Vergie36@hotmail.com",
+        "firstName": "Daron",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78262624",
+        "tenantId": null
+      },
+      {
+        "reference": "0b7e3307-efcd-4ba9-a7fe-33ea1b857d4d",
+        "email": "Cory52@gmail.com",
+        "firstName": "Daron",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34047582",
+        "tenantId": null
+      },
+      {
+        "reference": "e3e4f8cc-e8eb-4b63-8d2d-f35d129b6f73",
+        "email": "Luna.Yundt84@yahoo.com",
+        "firstName": "Isabelle",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12287403",
+        "tenantId": null
+      },
+      {
+        "reference": "36fb4536-e9f9-4216-8eb0-42bb4d75bd14",
+        "email": "Cordie8@gmail.com",
+        "firstName": "Sedrick",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/842.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e7f16c7-1bde-43c4-bb1b-ef422e5019d8",
+        "email": "Antonia.Ebert@gmail.com",
+        "firstName": "Ona",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96209841",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "event": [
+      {
+        "id": "f2f7bb30-f842-4dc2-84c0-a7aca66993ed",
+        "name": "Conference A",
+        "created_at": "2023-08-13T10:23:02.553Z",
+        "updated_at": "2023-08-13T03:23:45.144Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "30792ac0-0799-4ea8-9db2-3bb9beab151b",
+        "name": "Workshop B",
+        "created_at": "2023-08-13T05:55:52.588Z",
+        "updated_at": "2023-08-13T19:28:18.074Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "ef3b0ee3-6b49-4033-a9db-b7330002ed9e",
+        "name": "Seminar C",
+        "created_at": "2023-08-13T01:55:49.963Z",
+        "updated_at": "2023-08-13T13:27:13.370Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "ef838753-1b19-440c-9280-037286aca397",
+        "name": "Exhibition D",
+        "created_at": "2023-08-13T21:27:52.155Z",
+        "updated_at": "2023-08-13T15:53:58.708Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "4cd5a9d8-35bc-4f72-9aa0-26b7961783cb",
+        "name": "Webinar E",
+        "created_at": "2023-08-13T00:02:55.650Z",
+        "updated_at": "2023-08-12T23:31:10.326Z",
+        "client_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "venue": [
+      {
+        "id": "fbfaf987-7475-4269-86d7-586a723647ef",
+        "name": "Venue X",
+        "created_at": "2023-08-13T16:01:19.262Z",
+        "updated_at": "2023-08-13T18:08:16.739Z",
+        "event_id": "f2f7bb30-f842-4dc2-84c0-a7aca66993ed"
+      },
+      {
+        "id": "bd86f1af-2cc9-49ed-a61b-bba8e3bd1f1c",
+        "name": "Venue Y",
+        "created_at": "2023-08-13T21:55:12.129Z",
+        "updated_at": "2023-08-13T15:06:35.132Z",
+        "event_id": "f2f7bb30-f842-4dc2-84c0-a7aca66993ed"
+      },
+      {
+        "id": "53c2f3d9-9be6-44b4-912e-fa5d3b88bfe8",
+        "name": "Venue Z",
+        "created_at": "2023-08-13T15:49:26.821Z",
+        "updated_at": "2023-08-13T02:17:57.535Z",
+        "event_id": "ef838753-1b19-440c-9280-037286aca397"
+      },
+      {
+        "id": "9bddbe7d-bd9f-4e46-bcd1-e65859a7bf67",
+        "name": "Venue P",
+        "created_at": "2023-08-13T07:13:04.097Z",
+        "updated_at": "2023-08-13T20:47:36.862Z",
+        "event_id": "ef3b0ee3-6b49-4033-a9db-b7330002ed9e"
+      },
+      {
+        "id": "da5b5423-fe73-442f-88e7-ff6de0231151",
+        "name": "Venue Q",
+        "created_at": "2023-08-13T19:09:35.501Z",
+        "updated_at": "2023-08-13T18:05:09.704Z",
+        "event_id": "30792ac0-0799-4ea8-9db2-3bb9beab151b"
+      }
+    ],
+    "session": [
+      {
+        "id": "75ae186c-c0d6-4af1-96e0-e746f1d6be10",
+        "name": "Session 1",
+        "created_at": "2023-08-13T03:42:09.357Z",
+        "updated_at": "2023-08-13T02:24:54.258Z",
+        "event_id": "f2f7bb30-f842-4dc2-84c0-a7aca66993ed"
+      },
+      {
+        "id": "3a23dfa5-308e-49b0-ab31-3796ba658c21",
+        "name": "Session 2",
+        "created_at": "2023-08-13T02:07:38.369Z",
+        "updated_at": "2023-08-13T05:58:33.703Z",
+        "event_id": "ef3b0ee3-6b49-4033-a9db-b7330002ed9e"
+      },
+      {
+        "id": "00d246ec-c4d6-4158-915b-e97bdb32b585",
+        "name": "Session 3",
+        "created_at": "2023-08-12T23:01:34.778Z",
+        "updated_at": "2023-08-12T23:40:31.226Z",
+        "event_id": "4cd5a9d8-35bc-4f72-9aa0-26b7961783cb"
+      },
+      {
+        "id": "3007be59-2452-41f4-b4fb-f6702d098fe3",
+        "name": "Session 4",
+        "created_at": "2023-08-13T05:34:13.973Z",
+        "updated_at": "2023-08-13T00:38:34.928Z",
+        "event_id": "ef838753-1b19-440c-9280-037286aca397"
+      },
+      {
+        "id": "d69b2177-4c1b-48a1-b252-9b54314b0d44",
+        "name": "Session 5",
+        "created_at": "2023-08-13T00:06:06.530Z",
+        "updated_at": "2023-08-13T09:57:33.608Z",
+        "event_id": "ef3b0ee3-6b49-4033-a9db-b7330002ed9e"
+      }
+    ],
+    "registration": [
+      {
+        "id": "c8e8bd1b-99b0-4149-848e-780e879aeb89",
+        "attendee_name": "John Doe",
+        "created_at": "2023-08-13T14:03:26.539Z",
+        "updated_at": "2023-08-13T09:02:36.816Z",
+        "event_id": "ef838753-1b19-440c-9280-037286aca397"
+      },
+      {
+        "id": "013c49f9-e90b-4163-a1a3-7b44042c3bf1",
+        "attendee_name": "Jane Smith",
+        "created_at": "2023-08-13T03:38:46.237Z",
+        "updated_at": "2023-08-13T05:54:43.651Z",
+        "event_id": "4cd5a9d8-35bc-4f72-9aa0-26b7961783cb"
+      },
+      {
+        "id": "b0cd8ef3-2023-4aa8-9037-052fbf06767d",
+        "attendee_name": "Michael Brown",
+        "created_at": "2023-08-13T12:09:08.769Z",
+        "updated_at": "2023-08-13T15:06:17.935Z",
+        "event_id": "ef838753-1b19-440c-9280-037286aca397"
+      },
+      {
+        "id": "2556702b-ff96-4306-9839-8aac98610c81",
+        "attendee_name": "Sarah Jones",
+        "created_at": "2023-08-13T11:19:27.382Z",
+        "updated_at": "2023-08-13T15:48:57.101Z",
+        "event_id": "30792ac0-0799-4ea8-9db2-3bb9beab151b"
+      },
+      {
+        "id": "5a80e8f1-dfc1-44a6-8511-8f579c5f79a1",
+        "attendee_name": "David Wilson",
+        "created_at": "2023-08-13T19:52:42.041Z",
+        "updated_at": "2023-08-13T13:32:51.821Z",
+        "event_id": "ef838753-1b19-440c-9280-037286aca397"
+      }
+    ],
+    "promotion": [
+      {
+        "id": "2dce522e-9875-4728-b641-65ae6239e2cb",
+        "description": "Get 20% off on all products.",
+        "created_at": "2023-08-13T17:38:18.014Z",
+        "updated_at": "2023-08-13T10:58:05.646Z",
+        "event_id": "30792ac0-0799-4ea8-9db2-3bb9beab151b"
+      },
+      {
+        "id": "2bb3fac7-7d00-44a1-905e-7c71c6ccaf46",
+        "description": "Limited time offer: Buy one, get one free.",
+        "created_at": "2023-08-13T10:32:40.502Z",
+        "updated_at": "2023-08-13T11:39:10.116Z",
+        "event_id": "30792ac0-0799-4ea8-9db2-3bb9beab151b"
+      },
+      {
+        "id": "c7897a9d-52b0-40e6-a2ce-ccce87fa4af4",
+        "description": "Join now and receive a free gift.",
+        "created_at": "2023-08-13T11:40:23.272Z",
+        "updated_at": "2023-08-13T03:48:44.143Z",
+        "event_id": "30792ac0-0799-4ea8-9db2-3bb9beab151b"
+      },
+      {
+        "id": "e1c2f26b-b70f-4e68-9384-f1b2e02fdd00",
+        "description": "Exclusive discount for new customers.",
+        "created_at": "2023-08-13T11:23:14.273Z",
+        "updated_at": "2023-08-13T17:57:02.028Z",
+        "event_id": "ef838753-1b19-440c-9280-037286aca397"
+      },
+      {
+        "id": "28773fdd-ac80-4716-b742-108125e18f44",
+        "description": "Refer a friend and get rewarded.",
+        "created_at": "2023-08-13T18:36:01.831Z",
+        "updated_at": "2023-08-13T19:00:33.427Z",
+        "event_id": "f2f7bb30-f842-4dc2-84c0-a7aca66993ed"
+      }
+    ],
+    "data_analysis": [
+      {
+        "id": "07053b76-5010-45d3-bf22-9368b75cfb45",
+        "analysis": "Analysis A",
+        "created_at": "2023-08-13T17:14:51.934Z",
+        "updated_at": "2023-08-12T23:46:06.163Z",
+        "event_id": "30792ac0-0799-4ea8-9db2-3bb9beab151b"
+      },
+      {
+        "id": "1a17fddd-4fea-47bc-bef0-d7227fbd1306",
+        "analysis": "Analysis B",
+        "created_at": "2023-08-13T16:55:24.034Z",
+        "updated_at": "2023-08-13T19:52:20.663Z",
+        "event_id": "4cd5a9d8-35bc-4f72-9aa0-26b7961783cb"
+      },
+      {
+        "id": "7ee50c37-3fad-4974-816b-c86e7a58d0df",
+        "analysis": "Analysis C",
+        "created_at": "2023-08-13T06:46:15.176Z",
+        "updated_at": "2023-08-13T21:04:35.017Z",
+        "event_id": "ef838753-1b19-440c-9280-037286aca397"
+      },
+      {
+        "id": "0d5996c7-7c34-466c-bd2b-a99bb88ee5d1",
+        "analysis": "Analysis D",
+        "created_at": "2023-08-13T21:22:12.958Z",
+        "updated_at": "2023-08-13T02:17:42.963Z",
+        "event_id": "ef3b0ee3-6b49-4033-a9db-b7330002ed9e"
+      },
+      {
+        "id": "a6da113d-fbff-4805-a77e-add901908bf4",
+        "analysis": "Analysis E",
+        "created_at": "2023-08-13T06:44:13.285Z",
+        "updated_at": "2023-08-13T01:13:35.028Z",
+        "event_id": "ef838753-1b19-440c-9280-037286aca397"
+      }
+    ],
+    "check_in": [
+      {
+        "id": "14e07d35-b762-4adf-a412-9257a552dbc9",
+        "checked_in": true,
+        "created_at": "2023-08-13T15:25:37.567Z",
+        "updated_at": "2023-08-13T12:25:56.749Z",
+        "registration_id": "c8e8bd1b-99b0-4149-848e-780e879aeb89"
+      },
+      {
+        "id": "aac8f1a4-5daf-4b93-8e72-4e1df299b9f0",
+        "checked_in": false,
+        "created_at": "2023-08-13T06:35:22.996Z",
+        "updated_at": "2023-08-13T11:05:26.545Z",
+        "registration_id": "c8e8bd1b-99b0-4149-848e-780e879aeb89"
+      },
+      {
+        "id": "017b9642-675f-458e-b34b-c00145cf29a5",
+        "checked_in": true,
+        "created_at": "2023-08-13T22:08:23.927Z",
+        "updated_at": "2023-08-13T02:08:47.724Z",
+        "registration_id": "5a80e8f1-dfc1-44a6-8511-8f579c5f79a1"
+      },
+      {
+        "id": "f26420ab-a53b-4e8c-9d39-1fb77790ef35",
+        "checked_in": false,
+        "created_at": "2023-08-13T01:52:01.913Z",
+        "updated_at": "2023-08-13T12:16:13.070Z",
+        "registration_id": "2556702b-ff96-4306-9839-8aac98610c81"
+      },
+      {
+        "id": "f2f7248c-0cbe-4608-81cd-c74f8f53b447",
+        "checked_in": true,
+        "created_at": "2023-08-12T23:06:07.950Z",
+        "updated_at": "2023-08-13T11:20:32.126Z",
+        "registration_id": "5a80e8f1-dfc1-44a6-8511-8f579c5f79a1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fd342b89-e21f-45d1-a7c8-d2586e82a9b3",
+        "email": "Amani40@yahoo.com",
+        "firstName": "Chanel",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78094980",
+        "tenantId": null
+      },
+      {
+        "reference": "991f1d30-bf10-465d-bb75-e0e20e23a9bd",
+        "email": "Merl26@yahoo.com",
+        "firstName": "Major",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35321460",
+        "tenantId": null
+      },
+      {
+        "reference": "f6040a04-7800-4e0d-b809-0234e24220bd",
+        "email": "Estel80@gmail.com",
+        "firstName": "Marjolaine",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92978042",
+        "tenantId": null
+      },
+      {
+        "reference": "5de3a514-f205-4174-9792-f2450a01347f",
+        "email": "Karlie.Crooks@yahoo.com",
+        "firstName": "Burley",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/883.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "56b60d2f-a182-4647-936e-956fbe0da17f",
+        "email": "Oda_Miller91@gmail.com",
+        "firstName": "Elva",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17399643",
+        "tenantId": null
+      }
+    ]
+  }
+]
